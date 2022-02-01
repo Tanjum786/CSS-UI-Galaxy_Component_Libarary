@@ -1,0 +1,89 @@
+@import url(/CSS/main.css);
+@import url(/component/avatar/avatar.css);
+@import url(/CSS/variable.css);
+
+.main_div {
+    display: flex;
+    margin-top: 0.5rem;
+    width: 100%;
+}
+
+.intall_tab {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: var(--white-color);
+    font-weight: bold;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    text-decoration: none;
+}
+
+.intall_tab:hover {
+    background-color: var(--white-color);
+    border-radius: 0.5rem;
+    color: var(--primary-color);
+    padding: 0.5rem 3rem 0.5rem 3rem;
+
+}
+
+.left_div {
+    box-shadow: 10px 10px 10px -15px;
+    position: sticky;
+    top: 0;
+    width: 30rem;
+    height: 50rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.containt {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0.5rem;
+
+}
+
+.box1 {
+    position: sticky;
+    top: 0;
+    background-color: var(--white-color);
+}
+
+.item a {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    text-decoration: none;
+}
+
+.right-div {
+    width: 100rem;
+    height: 100rem;
+    overflow-y: scroll;
+
+}
+
+.item {
+    padding: 1rem;
+}
+
+.components:hover {
+    background-color: lightgray;
+    border-radius: 0.5rem;
+    color: var(--primary-color);
+}
+
+/* 
+@media(max-width: 998) {
+    html {
+        font-size: 55%;
+    }
+
+}
+
+@media(max-width: 768) {
+    html {
+        font-size: 45%;
+    }
+
+} */
