@@ -83,6 +83,27 @@ p {
     padding: 0rem;
 }
 
+.component_heading {
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--component-color);
+    font-size: 4rem;
+    margin: 2rem 0rem 0rem 3rem;
+}
+
+.component_ex {
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--component-color);
+    font-size: 2rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.primary_text_color {
+    color: var(--primary-color);
+}
+
 i {
     color: var(--gray-color);
 }
