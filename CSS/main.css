@@ -45,7 +45,6 @@ a:hover {
     flex-direction: column;
     font-family: var(--secondary-font);
     margin-left: 5rem;
-
 }
 
 .ui_name {
@@ -70,12 +69,18 @@ a:hover {
     color: var(--secondary-color);
     font-size: 3rem;
     margin-top: 5rem;
-
 }
 
 p {
     font-size: 1.5rem;
     padding: 2rem;
+}
+
+.para {
+    color: var(--secondary-color);
+    margin-left: 2rem;
+    margin-top: 1rem;
+    padding: 0rem;
 }
 
 i {

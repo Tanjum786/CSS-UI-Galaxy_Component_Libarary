@@ -22,7 +22,6 @@
     border-radius: 0.5rem;
     color: var(--primary-color);
     padding: 0.5rem 3rem 0.5rem 3rem;
-
 }
 
 .left_div {
@@ -39,7 +38,6 @@
     font-size: 2rem;
     font-weight: bold;
     padding: 0.5rem;
-
 }
 
 .box1 {
@@ -56,11 +54,10 @@
     text-decoration: none;
 }
 
-.right-div {
+.right_div {
     width: 100rem;
     height: 100rem;
     overflow-y: scroll;
-
 }
 
 .item {
