@@ -74,51 +74,6 @@ p {
     padding: 2rem;
 }
 
-.para {
-    color: var(--secondary-color);
-    margin-left: 2rem;
-    margin-top: 1rem;
-    padding: 0rem;
-}
-
-.component_heading {
-    display: flex;
-    flex-wrap: wrap;
-    color: var(--component-color);
-    font-size: 4rem;
-    margin: 2rem 0rem 0rem 3rem;
-}
-
-.component_ex {
-    display: flex;
-    flex-wrap: wrap;
-    color: var(--component-color);
-    font-size: 2rem;
-    margin-left: 2rem;
-    margin-top: 2rem;
-}
-
-.component_box {
-    border: 3px solid var(--boder-color);
-    border-radius: 0.5rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    height: 20rem;
-    padding: 4rem;
-    width: 70rem;
-    margin-left: 3rem;
-    margin-top: 2rem;
-}
-
-.component_code {
-    display: flex;
-    justify-content: center;
-}   
-.primary_text_color {
-    color: var(--primary-color);
-}
-
 i {
     color: var(--gray-color);
 }
