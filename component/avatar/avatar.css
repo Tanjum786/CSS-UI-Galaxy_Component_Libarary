@@ -1,23 +1,9 @@
-.avatar {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    height: 20rem;
-    width: 100%;
-    margin-top: 2rem;
-}
-
 .avatar_image {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: flex-end;
     flex-direction: row;
     gap: 1rem;
-    border: 3px solid var(--boder-color);
-    border-radius: 0.5rem;
-    width: 70rem;
-    padding: 3rem;
 }
 
 .avatar_border {
@@ -54,9 +40,4 @@
     justify-content: center;
     background-color: var(--primary-color);
     color: white;
-}
-
-.avatar_code {
-    display: flex;
-    justify-content: center;
 }

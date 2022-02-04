@@ -1,5 +1,6 @@
 @import url(/CSS/main.css);
 @import url(/component/avatar/avatar.css);
+@import url(/component/Alerts/Alerts.css);
 @import url(/CSS/variable.css);
 
 .main_div {
