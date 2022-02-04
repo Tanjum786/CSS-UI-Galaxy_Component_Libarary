@@ -16,6 +16,8 @@ body {
 .navigation {
     background-color: var(--white-color);
     box-shadow: 10px 10px 10px -15px var(--black-color);
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
     width: 100%;
 }
 
@@ -34,8 +36,9 @@ body {
     text-decoration: none;
 }
 
-a:hover {
-    color: var(--primary-color);
+a.links:hover {
+    color: var(--secondary-color);
+    border-bottom: 4px solid var(--primary-color);
 }
 
 .name {
@@ -75,15 +78,12 @@ p {
 }
 
 i {
-    color: var(--gray-color);
-}
-
-i:hover {
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .doc_page {
     background-color: var(--primary-color);
+    box-shadow: 1px 2px 1px 2px var(--secondary-color);
     border-radius: 0.5rem;
     color: var(--white-color);
     font-size: 2rem;
@@ -95,6 +95,7 @@ i:hover {
 
 .doc_page:hover {
     background-color: white;
-    border: 1px solid var(--primary-color);
+    box-shadow: 2px 1px 2px 1px var(--secondary-color);
+    border: 3px solid var(--primary-color);
     color: var(--primary-color);
 }
