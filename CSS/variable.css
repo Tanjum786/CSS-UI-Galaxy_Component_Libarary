@@ -8,5 +8,12 @@
     --boder-color: #d4d4d8;
     --primary-font: 'Playfair Display', serif;
     --secondary-font: 'Quintessential', cursive;
-
-}
+    --primary-alert-color:#a5b4fc;
+    --secondary-alert-bg: #e0e7ff;
+    --success-alert-bg: #bbf7d0;
+    --success-alert-color: #16a34a;
+    --danger-alert-bg: #fecaca;
+    --danger-alert-color: #ef4444;
+    --warning-alert-bg: #fed7aa;
+    --warning-alert-color:#f97316;
+}   

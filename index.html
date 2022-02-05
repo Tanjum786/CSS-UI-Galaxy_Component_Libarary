@@ -70,6 +70,7 @@
             </div>
         </div>
         <div class="right_div">
+            <!-- Avatar component  -->
             <div id="Avatar">
                 <h1 class="component_heading">Avatar</h1>
                 <p class="para">Avatar is an profile picture.used for represent the user Identity and dispalys the
@@ -118,7 +119,47 @@
                     </iframe>
                 </div>
             </div>
-        </div>
+            <hr>
+            <!-- Alerts component -->
+            <div id="Alerts">
+                <h1 class="component_heading">Alerts</h1>
+                <p class="para">
+                    Alerts are urgent interruptions.Alerts are used to disply a short important message in a way that
+                    attarcts the user's attention.Alerts are used to inform the user about a situation.
+                </p>
+                <h2 class="component_ex">Example of Alerts</h2>
+                <div>
+                    <p class="para">
+                        This component available for us, and it is very easy to integrate. Alerts are in differnet types
+                        like-warning alert, primary alert,secondary alert,danger alert,success alert. To use these
+                        Alerts.You have to add class
+                        <span class="primary_text_color">alert_container</span> for differnet types add class
+                        accordingly like <span class="primary_text_color">alert_primary, alert_secondary,
+                            alert_danger,alert_warning,alert_success.</span>
+                        for (e.g. <span class="primary_text_color">class= alert_container alert_success</span>)<br>
+                    </p>
+                </div>
+                <div class="component_box alert_box">
+                    <div class="alert_container">
+                        Primary Alert message with Text link <a href="#Alerts" class="alert_primary">Download !</a>
+                    </div>
+                    <div class="alert_container alert_secondary">Secondary Alert message !</div>
+                    <div class="alert_container alert_success">
+                        <i class="far fa-check-circle"> Success Alert message !</i></div>
+                    <div class="alert_container alert_danger">
+                        <i class="fas fa-exclamation-triangle"> Danger Alert message !</i></div>
+                    <div class="alert_container alert_warning">
+                        <i class="fas fa-exclamation-triangle"> Warning Alert message !</i></div>
+                </div>
+                <div class="component_code">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522alert_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Primary%2520Alert%2520message%2520with%2520Text%2520link%2520%253Ca%2520href%253D%2522%2523Alerts%2522%2520%2509%2509%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522alert_primary%2522%253EDownload%2520%21%253C%252Fa%253E%250A%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert_container%2520alert_secondary%2522%253ESecondary%2520Alert%2520message%2520%21%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert_container%2520alert_success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-check-circle%2522%253E%2520Success%2520Alert%2520message%2520%21%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert_container%2520alert_danger%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%2520Danger%2520Alert%2520message%2520%21%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert_container%2520alert_warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%2520Warning%2520Alert%2520message%2520%21%253C%252Fi%253E%250A%2509%2509%2509%2509%2509%253C%252Fdiv%253E"
+                        style="width: 1100px; height:440px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+            </div>
 </body>
 
 </html>
