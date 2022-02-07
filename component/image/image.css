@@ -1,0 +1,19 @@
+img {
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.sq_image {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15rem;
+}
+
+.image {
+    width: 15rem;
+    height: 15rem;
+}
+
+.image_round {
+    border-radius: 50%;
+}

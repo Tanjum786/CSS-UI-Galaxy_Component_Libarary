@@ -4,7 +4,8 @@
 @import url(/component/alerts/alert.css);
 @import url(/component/Badge/badge.css);
 @import url(/component/Button/button.css);
-
+@import url(/component/image/image.css);
+@import url(/component/Rating/rating.css);
 * {
     margin: 0;
     padding: 0;
