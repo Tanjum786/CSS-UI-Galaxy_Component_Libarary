@@ -1,14 +1,27 @@
-.rating_container{
+.rating_container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.rating_text{
+
+.rating_text {
     font-size: 2rem;
 }
-i.fa-star{
+
+i.fa-star {
     color: var(--gray-color);
+    font-size: 2rem;
+    cursor: pointer;
 }
-i.star_control:focus{
-    color: #fbbf24;
+
+.star_control:hover {
+    color: var(--golden-color);
+}
+
+i.star_read {
+    color: var(--golden-color);
+}
+
+i.star_disabe {
+    color: var(--lightgolden-color);
 }
