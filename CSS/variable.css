@@ -4,16 +4,17 @@
     --component-color: #334155;
     --white-color: #f9fafb;
     --gray-color: #a1a1aa;
+    --lightGray-color: #e2e8f0;
     --black-color: #1e293b;
     --boder-color: #d4d4d8;
     --primary-font: 'Playfair Display', serif;
     --secondary-font: 'Quintessential', cursive;
-    --primary-alert-color:#a5b4fc;
+    --primary-alert-color: #a5b4fc;
     --secondary-alert-bg: #e0e7ff;
     --success-alert-bg: #bbf7d0;
     --success-alert-color: #16a34a;
     --danger-alert-bg: #fecaca;
     --danger-alert-color: #ef4444;
     --warning-alert-bg: #fed7aa;
-    --warning-alert-color:#f97316;
-}   
+    --warning-alert-color: #f97316;
+}
