@@ -1,4 +1,5 @@
 :root {
+    /* colors */
     --primary-color: #1E40AF;
     --secondary-color: #4b5563;
     --component-color: #334155;
@@ -7,8 +8,6 @@
     --lightGray-color: #e2e8f0;
     --black-color: #1e293b;
     --boder-color: #d4d4d8;
-    --primary-font: 'Playfair Display', serif;
-    --secondary-font: 'Quintessential', cursive;
     --primary-alert-color: #a5b4fc;
     --secondary-alert-bg: #e0e7ff;
     --success-alert-bg: #bbf7d0;
@@ -19,4 +18,8 @@
     --warning-alert-color: #f97316;
     --golden-color: #fbbf24;
     --lightgolden-color: #fde68a;
+
+    /* font family */
+    --primary-font: 'Playfair Display', serif;
+    --secondary-font: 'Quintessential', cursive;
 }
