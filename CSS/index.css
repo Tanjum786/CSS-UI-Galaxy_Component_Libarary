@@ -6,6 +6,11 @@
 @import url(/component/Button/button.css);
 @import url(/component/image/image.css);
 @import url(/component/Rating/rating.css);
+img {
+    object-fit: cover;
+    max-width: 100%;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -104,7 +109,7 @@ body {
     margin: 2rem 0rem 0rem 2rem;
 }
 
-.component_ex {
+.component_example {
     display: flex;
     flex-wrap: wrap;
     color: var(--component-color);
