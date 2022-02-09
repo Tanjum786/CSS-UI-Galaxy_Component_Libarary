@@ -1,4 +1,4 @@
-div.list_box {
+.component_box.list_box {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -52,4 +52,27 @@ li {
 }
 .list_bullet_none{
     list-style: none;
+}    background-color: var(--lightGray-color);
+    color: var(--primary-color);
 }
+i.list_notifiction_icon{
+    color: var(--primary-color);
+}
+
+
+.list_notifiction:nth-child(2){
+    background-color: var(--danger-alert-bg);
+    color: var(--danger-alert-color);
+}
+
+.list_notifiction:nth-child(3) {
+    background-color: var(--success-alert-bg);
+    color: var(--success-alert-color);
+}
+    
+.list_notifiction:nth-child(4) {
+    background-color: var(--warning-alert-bg);
+    color: var(--warning-alert-color);
+
+}
+
