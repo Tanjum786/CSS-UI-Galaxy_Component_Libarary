@@ -10,9 +10,14 @@ div.list_box {
     align-items: center;
     flex-direction: column;
     font-size: 1.5rem;
+    padding: 1rem;
     width: 10rem;
     height: 10rem;
     background-color: var(--lightGray-color);
+}
+
+li {
+    padding: 0.5rem;
 }
 
 .list_sq {
@@ -22,97 +27,29 @@ div.list_box {
 .list_circle {
     list-style: circle;
 }
-
-.list_upper_alphabet {
+.list_upper_alphabet{
     list-style: upper-alpha;
 }
-
-.list_lower_alphabet {
-    list-style: lower-alpha;
+.list_lower_alphabet{
+    list-style:lower-alpha;
 }
-
-.list_roman {
-    list-style: lower-roman;
+.list_roman{
+    list-style:lower-roman;
 }
-
-.list_upper_roman {
-    list-style: upper-roman;
+.list_upper_roman{
+    list-style:upper-roman;
 }
-
-.list_style_none {
+.list_style_none{
     display: flex;
     justify-content: center;
     gap: 2rem;
     align-items: center;
     background-color: var(--lightGray-color);
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
-
-.list_inline {
+.list_inline{
     display: inline;
-    padding: 1rem;
 }
-
-.list_bullet_none {
+.list_bullet_none{
     list-style: none;
-}
-
-div.stacked_list_box {
-    display: flex;
-    justify-content: flex-start;
-    height: 25rem;
-    padding-top: 2rem;
-}
-
-.list_notification {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    font-size: 1.5rem;
-    gap: 2rem;
-}
-
-.list_notify {
-    display: flex;
-    justify-content: space-between;
-    width: 20rem;
-    padding: 1rem;
-    border-radius: 0.5rem;
-}
-
-.notify1 {
-    background-color: var(--lightGray-color);
-    color: var(--primary-color);
-}
-
-i.notify1 {
-    color: var(--primary-color);
-}
-
-.notify2 {
-    background-color: var(--danger-alert-bg);
-    color: var(--danger-alert-color);
-}
-
-i.notify2 {
-    color: var(--danger-alert-color);
-}
-
-.notify3 {
-    background-color: var(--success-alert-bg);
-    color: var(--success-alert-color);
-}
-
-i.notify3 {
-    color: var(--success-alert-color);
-}
-
-.notify4 {
-    background-color: var(--warning-alert-bg);
-    color: var(--warning-alert-color);
-
-}
-
-i.notify4 {
-    color: var(--warning-alert-color);
 }

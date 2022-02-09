@@ -1,4 +1,4 @@
-div.input_box {
+.input_box {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -6,7 +6,7 @@ div.input_box {
     height: 13rem;
 }
 
-.user_text {
+#username {
     font-size: 1rem;
     width: 100%;
     padding: 1rem;
