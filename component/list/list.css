@@ -27,19 +27,24 @@ li {
 .list_circle {
     list-style: circle;
 }
-.list_upper_alphabet{
+
+.list_upper_alphabet {
     list-style: upper-alpha;
 }
-.list_lower_alphabet{
-    list-style:lower-alpha;
+
+.list_lower_alphabet {
+    list-style: lower-alpha;
 }
-.list_roman{
-    list-style:lower-roman;
+
+.list_roman {
+    list-style: lower-roman;
 }
-.list_upper_roman{
-    list-style:upper-roman;
+
+.list_upper_roman {
+    list-style: upper-roman;
 }
-.list_style_none{
+
+.list_style_none {
     display: flex;
     justify-content: center;
     gap: 2rem;
@@ -47,12 +52,15 @@ li {
     background-color: var(--lightGray-color);
     font-size: 2rem;
 }
-.list_inline{
+
+.list_inline {
     display: inline;
 }
-.list_bullet_none{
+
+.list_bullet_none {
     list-style: none;
 }
+
 .component_box.stacked_list_box {
     display: flex;
     justify-content: flex-start;
@@ -76,16 +84,12 @@ li {
     border-radius: 0.5rem;
 }
 
-.list_notifiction:nth-child(1) {    
+.list_notifiction:nth-child(1) {
     background-color: var(--lightGray-color);
     color: var(--primary-color);
 }
-i.list_notifiction_icon{
-    color: var(--primary-color);
-}
 
-
-.list_notifiction:nth-child(2){
+.list_notifiction:nth-child(2) {
     background-color: var(--danger-alert-bg);
     color: var(--danger-alert-color);
 }
@@ -94,10 +98,9 @@ i.list_notifiction_icon{
     background-color: var(--success-alert-bg);
     color: var(--success-alert-color);
 }
-    
+
 .list_notifiction:nth-child(4) {
     background-color: var(--warning-alert-bg);
     color: var(--warning-alert-color);
 
 }
-
