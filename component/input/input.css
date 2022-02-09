@@ -1,0 +1,28 @@
+.input_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+    height: 13rem;
+}
+
+#username {
+    font-size: 1rem;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+    border: 2.5px solid var(--primary-color);
+}
+
+.lable_text {
+    font-size: 1.5rem;
+}
+
+.lable_text_color {
+    color: var(--danger-alert-color);
+}
+
+.valid_text {
+    font-size: 1rem;
+}
