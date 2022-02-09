@@ -600,15 +600,124 @@
                         sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
+            </div>
+            <hr>
+            <!-- toast component -->
+            <div id="toast">
+                <h1 class="component_heading">Toast</h1>
+                <p class="para">
+                    The toast component is like an alert box that is only shown for a couple of seconds when something
+                    happens (i.e. when the user clicks on a button, submits a form, etc.).
+                </p>
+                <h2 class="component_example">Example of simple sankbar/toast</h2>
+                <div>
+                    <p class="para">
+                        some sankbar are shown below to use this component follow below html snippet.
+                    </p>
+                </div>
+                <div class="component_box toast_box">
+                    <div class="container">
+                        <div id="SnackBar">Not saved ! try again later.<i class="fas fa-times" id="btn_close"></i></div>
+                    </div>
+                </div>
+                <div class="component_code">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=1080&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%2509%253Cdiv%2520class%253D%2522container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520id%253D%2522SnackBar%2522%253ENot%2520saved%2520%21%2520try%2520again%2520later.%253Ci%2520class%253D%2522fas%2520fa-times%2522%2520id%253D%2522btn_close%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                        style="width: 1080px; height: 227px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h2 class="component_example">Example of sankbar/toast with button</h2>
+                <div>
+                    <p class="para">
+                        This are the toast which used for appearing small message on pop. It have buttons also which
+                        used to remove the toast.
+                    </p>
+                </div>
+                <div class="component_box toast_box">
+                    <div class="container">
+                        <div class="snackBar">Can't send photo. Retry in 5 seconds.
+                            <button class="btn">Retry</button>
+                            <button id="btn_cross" class="btn"><i class="fas fa-times"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="component_code">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=1080&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%253Cdiv%2520class%253D%2522component_box%2520toast_box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackBar%2522%253ECan%27t%2520send%2520photo.%2520Retry%2520in%25205%2520seconds.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253ERetry%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520id%253D%2522btn_cross%2522%2520class%253D%2522btn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                        style="width: 1080px; height: 320px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
 
+            <!-- typography -->
+            <div id="typography">
+                <h1 class="component_heading">Typography</h1>
+                <p class="para">
+                    Documentation and examples for <span class="text_font primary_text_color">CSS UI Galaxy</span>
+                    typography, including global settings, headings, body text, lists, and more.
 
-
-
-
-
+                </p>
+                <h2 class="component_example">Headings</h2>
+                <div>
+                    <p class="para">
+                        All HTML headings ,h1 through h6, are available.Go through the mentioned snippet.
+                    </p>
+                </div>
+                <div class="component_box heading_box">
+                    <h1 class="h1">headings h1</h1>
+                    <h2 class="h2">headings h2</h2>
+                    <h3 class="h3">headings h3</h3>
+                    <h4 class="h4">headings h4</h4>
+                    <h5 class="h5">headings h5</h5>
+                    <h6 class="">headings h6</h6>
+                </div>
+                <div class="component_code">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=auto&width=1080&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%2509%2509%253Ch1%253Eheadings%2520h1%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253Eheadings%2520h2%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253Eheadings%2520h3%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253Eheadings%2520h4%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%253Eheadings%2520h5%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%253Eheadings%2520h6%253C%252Fh6%253E"
+                        style="width: 1080px; height: 283px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h1 class="component_heading">Font family</h1>
+                <div>
+                    <p class="para">
+                        <span class="primary_text_color text_font ">CSS UI Galaxy</span> uses "Playfair Display-sarif",
+                        as its default font, which is a free font available at Google Fonts.
+                    </p>
+                </div>
+                <div class="component_code">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=auto&width=1080&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2540import%2520url%28%27https%253A%252F%252Ffonts.googleapis.com%252Fcss2%253Ffamily%253DCaveat%2526family%253DCormorant%252BGaramond%253Awght%2540400%253B500%2526family%253DEB%252BGaramond%2526family%253DIndie%252BFlower%2526family%253DKalam%253Awght%2540300%2526family%253DLibre%252BBaskerville%2526family%253DMarck%252BScript%2526family%253DMontagu%252BSlab%253Awght%2540300%2526family%253DMontserrat%253Aital%252Cwght%25400%252C100%253B0%252C300%253B0%252C400%253B1%252C500%2526family%253DNoto%252BSerif%2526family%253DPhilosopher%253Awght%2540700%2526family%253DQuintessential%2526family%253DSource%252BSerif%252BPro%253Aital%252Cwght%25401%252C300%2526family%253DYuji%252BMai%2526display%253Dswap%27%29%253B"
+                        style="width: 1024px; height: 264px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
 
             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </div>
+    </div>
 </body>
 
 </html>
