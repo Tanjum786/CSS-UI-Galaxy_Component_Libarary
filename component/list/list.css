@@ -52,7 +52,32 @@ li {
 }
 .list_bullet_none{
     list-style: none;
-}    background-color: var(--lightGray-color);
+}
+.component_box.stacked_list_box {
+    display: flex;
+    justify-content: flex-start;
+    height: 25rem;
+    padding-top: 2rem;
+}
+
+.unorder_notification {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 1.5rem;
+    gap: 2rem;
+}
+
+.stacked_list_size {
+    display: flex;
+    justify-content: space-between;
+    width: 20rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.list_notifiction:nth-child(1) {    
+    background-color: var(--lightGray-color);
     color: var(--primary-color);
 }
 i.list_notifiction_icon{
