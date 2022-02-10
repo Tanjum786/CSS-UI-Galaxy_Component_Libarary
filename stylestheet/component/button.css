@@ -1,9 +1,8 @@
-div.button_box {
+.button_box {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    height: 5rem;
 }
 
 .btn_container {
@@ -19,7 +18,7 @@ div.button_box {
     align-items: center;
     border-radius: 0.5rem;
     background-color: var(--primary-color);
-    width: 14rem;
+    width: 12rem;
     font-size: 1.5rem;
     font-weight: bold;
     color: var(--white-color);
@@ -27,7 +26,7 @@ div.button_box {
     cursor: pointer;
 }
 
-a.btn_primary:hover {
+.btn_primary:hover {
     box-shadow: 0px 0px 0px 2px var(--primary-color);
 }
 
@@ -58,7 +57,7 @@ a.btn_primary:hover {
     border-bottom: 3px solid var(--primary-color);
 }
 
-i.cart_icon {
+.cart_icon {
     color: var(--white-color);
     padding-right: 1rem;
 }
@@ -129,6 +128,6 @@ i.trash {
     text-decoration: none;
 }
 
-i.icon_btn {
+.icon_btn {
     color: var(--primary-color);
 }

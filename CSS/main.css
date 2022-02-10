@@ -1,4 +1,4 @@
-@import url(/CSS/variable.css);
+@import url(/stylestheet/abstract/variable.css);
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Cormorant+Garamond:wght@400;500&family=EB+Garamond&family=Indie+Flower&family=Kalam:wght@300&family=Libre+Baskerville&family=Marck+Script&family=Montagu+Slab:wght@300&family=Montserrat:ital,wght@0,100;0,300;0,400;1,500&family=Noto+Serif&family=Philosopher:wght@700&family=Quintessential&family=Source+Serif+Pro:ital,wght@1,300&family=Yuji+Mai&display=swap');
 
 * {
@@ -51,8 +51,11 @@ a.links:hover {
 .ui_name {
     color: var(--primary-color);
     font-size: 2rem;
+    text-decoration: none;
 }
-
+.ui_link{
+    text-decoration: none;
+}
 .ui_tagline {
     font-size: 1rem;
 }
