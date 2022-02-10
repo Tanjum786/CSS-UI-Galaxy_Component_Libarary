@@ -8,17 +8,17 @@
     bottom: 1.5rem;
 }
 
-#SnackBar {
+.SnackBar {
     display: flex;
     justify-content: space-between;
     background-color: var(--danger-alert-bg);
-    border-radius: 0.4rem;
+    border-radius: 0.5rem;
     font-size: 1.5rem;
     padding: 1.5rem;
     color: var(--danger-alert-color);
 }
 
-i#btn_close {
+.btn_close {
     color: var(--black-color);
     cursor: pointer;
 }
