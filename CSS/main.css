@@ -1,17 +1,6 @@
 @import url(/stylestheet/abstract/variable.css);
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Cormorant+Garamond:wght@400;500&family=EB+Garamond&family=Indie+Flower&family=Kalam:wght@300&family=Libre+Baskerville&family=Marck+Script&family=Montagu+Slab:wght@300&family=Montserrat:ital,wght@0,100;0,300;0,400;1,500&family=Noto+Serif&family=Philosopher:wght@700&family=Quintessential&family=Source+Serif+Pro:ital,wght@1,300&family=Yuji+Mai&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    display: flex;
-    flex-wrap: wrap;
-    font-family: var(--primary-font);
-}
 
 .navigation {
     background-color: var(--white-color);
@@ -73,15 +62,6 @@ a.links:hover {
     color: var(--secondary-color);
     font-size: 3rem;
     margin-top: 5rem;
-}
-
-p {
-    font-size: 1.5rem;
-    padding: 2rem;
-}
-
-i {
-    color: var(--secondary-color);
 }
 
 .doc_page {

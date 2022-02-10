@@ -1,9 +1,4 @@
 @import url(/CSS/base.css);
-img {
-    object-fit: cover;
-    max-width: 100%;
-}
-
 
 .main_div {
     display: flex;
@@ -122,9 +117,6 @@ img {
     color: var(--primary-color);
 }
 
-hr {
-    margin: 2rem;
-}
 
 /* 
 @media(max-width: 998) {
