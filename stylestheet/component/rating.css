@@ -8,7 +8,7 @@
     font-size: 2rem;
 }
 
-i.star_color {
+.star_color {
     color: var(--gray-color);
     font-size: 2rem;
     cursor: pointer;
@@ -18,10 +18,10 @@ i.star_color {
     color: var(--golden-color);
 }
 
-i.star_read {
+.star_read {
     color: var(--golden-color);
 }
 
-i.star_disable {
+.star_disable {
     color: var(--lightgolden-color);
 }

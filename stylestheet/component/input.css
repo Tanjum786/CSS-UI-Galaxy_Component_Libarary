@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 5rem;
-    height: 13rem;
+    height: 15rem;
 }
 
 #username {
@@ -25,4 +25,5 @@
 
 .valid_text {
     font-size: 1rem;
+    margin-top:-1.5rem;
 }
