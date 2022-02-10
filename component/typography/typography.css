@@ -1,0 +1,34 @@
+.component_box.heading_box {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    height: 30rem;
+}
+
+.text_font {
+    font-family: var(--secondary-font);
+}
+
+.h1 {
+    font-size: 40px;
+}
+
+.h2 {
+    font-size: 32px;
+}
+
+.h3 {
+    font-size: 28px;
+}
+
+.h4 {
+    font-size: 24px;
+}
+
+.h5 {
+    font-size: 20px;
+}
+
+.h6 {
+    font-size: 16px;
+}

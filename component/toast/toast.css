@@ -1,0 +1,43 @@
+.component_box.toast_box {
+    height: 10rem;
+}
+
+.container {
+    width: 25rem;
+    position: relative;
+    bottom: 1.5rem;
+}
+
+.SnackBar {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--danger-alert-bg);
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    color: var(--danger-alert-color);
+}
+
+.btn_close {
+    color: var(--black-color);
+    cursor: pointer;
+}
+
+.btn {
+    padding: 0.5rem;
+    margin-left: 1rem;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+    color: var(--danger-alert-color);
+    background-color: var(--black-color);
+}
+
+.snackBar {
+    background-color: var(--black-color);
+    border-radius: 0.4rem;
+    padding: 1rem;
+    width: 25rem;
+    color: var(--white-color);
+    bottom: 0.5rem;
+}

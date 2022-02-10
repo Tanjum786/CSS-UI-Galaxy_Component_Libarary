@@ -1,4 +1,8 @@
 @import url(/CSS/index.css);
+@import url(/component/input/input.css);
+@import url(/component/list/list.css);
+@import url(/component/toast/toast.css);
+@import url(/component/typography/typography.css);
 @import url(/CSS/main.css);
 @import url(/stylestheet/abstract/variable.css);
 @import url(/stylestheet/assets);
