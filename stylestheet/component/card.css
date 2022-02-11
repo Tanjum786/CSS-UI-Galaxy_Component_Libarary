@@ -1,65 +1,153 @@
-.card_container {
+/* basic card */
+.card_container,
+.heart_btn,
+.price {
     display: flex;
     flex-wrap: wrap;
-    width: 22rem;
-    height: 15rem;
-    background-color:var(--white-color);
-    box-shadow: 3px 2px 4px 2px var(--gray-color);
+}
+
+.heart_btn,
+.price,
+.card_btn {
+    font-size: 1.5rem;
+}
+
+.icons_card,
+.icons_card_slash {
+    margin-right: 0.5rem;
+
+}
+
+.card_container,
+.card_imge {
+    width: 25rem;
+}
+
+.card_container,
+.badge_size,
+.card_btn {
+    border-radius: 0.5rem;
+}
+
+.heart_btn:hover,
+.card_btn:hover {
+    opacity: 0.7;
+}
+
+.product_name,
+.card_discription,
+.card_rating {
+    padding: 0;
+    margin: 0 1rem;
+}
+.card_container,.badge_size,.text_overlay{
     position: relative;
-    border-radius: 5px;
+}
+.card_container {
+    background-color: white;
+    box-shadow: 3px 2px 4px 2px gray;
+}
 
+.card_imge {
+    height: 16rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
-  .card_imge{
-      /* width: 22rem;
-      height: 15rem; */
-    border-top-left-radius:5px;
-    border-top-right-radius:5px;
 
-  }
-  .box2{
-      position: absolute;
-      top:230px;
-      margin-left: 1rem;
-      color: black;
-  }
-  .box3{
-      position: absolute;
-      top: 270px;
-      margin-left: 1rem;
-      color: grey;
-      font-weight: bold;
-      font-size: 13px;
+.card_horizental,
+.titel_container {
+    box-shadow: 3px 2px 4px 2px gray;
 }
-  .box4{
-      position: absolute;
-      top: 300px;
-      margin-left: 1rem;
-      color: grey;
-      font-size: 15px;
-  }
-  button{
-      background-color: transparent;
-      border: none;
-  }
-.card_btn{
-      padding-top: 6rem;
-      margin-left: 1rem;
-      font-size: 1rem;
-      color:#3b82f6;
-      cursor: pointer;
-  }
-.box6{
-    margin-top: 7rem;
-    font-size: 1.4rem;
-    color: black;
-    padding-left: 2rem;
-    
+
+.heart_btn {
+    position: absolute;
+    top: 1rem;
+    left: 21rem;
+    height: 3rem;
+    width: 3rem;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white-color);
+    border-radius: 50%;
 }
-i{
-    padding-right: 1.7rem;
-    cursor: pointer;
-    color: grey;
+
+.heart_icon {
+    color: var(--component-color);
 }
-i:hover{
-    color:#3b82f6;
+
+.card_discription {
+    margin-top: 1rem;
+}
+
+.card_rating {
+    padding-top: 1rem;
+}
+
+.card_star {
+    color: var(--golden-color);
+    font-size: 1.3rem;
+}
+
+.price {
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.btn_container {
+    margin: 1rem;
+}
+
+.card_btn {
+    width: 10rem;
+    height: 3.5rem;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.icons_card_slash {
+    color: var(--black-color);
+}
+
+.btn_buy {
+    background-color: white;
+    color: var(--black-color);
+    border: 3px solid var(--primary-color);
+}
+
+.icons_card {
+    color: white;
+}
+
+/* card with dismiss */
+.dismiss_icon {
+    font-size: 2rem;
+    border: none;
+    background-color: transparent;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+/* badge card */
+.badge_size {
+    right: 1rem;
+    top: 4rem;
+}
+
+/* text_overlay card*/
+.text_overlay {
+    background-color: var(--lightGray-color);
+    font-size: 3rem;
+    left: 5rem;
+    top: 18rem;
+}
+
+.card_opacity {
+    opacity: 0.4;
+}
+
+/* horizental card */
+.card_horizental {
+    display: flex;
+    flex-direction: row;
+    width: 50rem;
 }

@@ -26,3 +26,6 @@ p {
 i {
     color: var(--secondary-color);
 }
+button{
+    cursor: pointer;
+}
