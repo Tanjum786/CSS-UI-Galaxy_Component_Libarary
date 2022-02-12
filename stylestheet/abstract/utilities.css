@@ -16,8 +16,9 @@ img {
 }
 
 hr {
-    margin: 2rem;
+    margin: 0 2rem 0 2rem;
 }
+
 p {
     font-size: 1.5rem;
     padding: 2rem;
@@ -26,9 +27,11 @@ p {
 i {
     color: var(--secondary-color);
 }
-button{
+
+button {
     cursor: pointer;
 }
-a{
+
+a {
     text-decoration: none;
 }

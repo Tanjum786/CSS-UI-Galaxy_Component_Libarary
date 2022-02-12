@@ -11,6 +11,7 @@
     width: 100%;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 .list {
@@ -92,8 +93,6 @@ a.links:hover {
 .install_container {
     padding: 5rem;
     width: 100%;
-    z-index: -1;
-    height: 50rem;
 }
 
 .install_head {
@@ -115,7 +114,6 @@ a.links:hover {
 }
 
 .doc_link {
-    /* text-decoration: none; */
     color: var(--primary-color);
     font-weight: bold;
 }
