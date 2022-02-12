@@ -9,6 +9,8 @@
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
     width: 100%;
+    position: sticky;
+    top: 0;
 }
 
 .list {
@@ -43,9 +45,11 @@ a.links:hover {
     font-size: 2rem;
     text-decoration: none;
 }
-.ui_link{
+
+.ui_link {
     text-decoration: none;
 }
+
 .ui_tagline {
     font-size: 1rem;
 }
@@ -82,4 +86,36 @@ a.links:hover {
     box-shadow: 2px 1px 2px 1px var(--secondary-color);
     border: 3px solid var(--primary-color);
     color: var(--primary-color);
+}
+
+/* insatllation part */
+.install_container {
+    padding: 5rem;
+    width: 100%;
+    z-index: -1;
+    height: 50rem;
+}
+
+.install_head {
+    display: flex;
+    justify-content: center;
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+.info {
+    text-align: center;
+}
+
+.install_text_color {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.doc_link {
+    /* text-decoration: none; */
+    color: var(--primary-color);
+    font-weight: bold;
 }
