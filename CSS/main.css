@@ -26,7 +26,6 @@
     color: var(--black-color);
     font-size: 2rem;
     font-weight: bold;
-    text-decoration: none;
 }
 
 a.links:hover {
@@ -44,11 +43,6 @@ a.links:hover {
 .ui_name {
     color: var(--primary-color);
     font-size: 2rem;
-    text-decoration: none;
-}
-
-.ui_link {
-    text-decoration: none;
 }
 
 .ui_tagline {
@@ -60,7 +54,7 @@ a.links:hover {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    padding: 5rem;
+        padding: 5rem;
     text-align: center;
 }
 
@@ -76,9 +70,8 @@ a.links:hover {
     border-radius: 0.5rem;
     color: var(--white-color);
     font-size: 2rem;
-    margin-top: 2rem;
+    margin-top: 2rem;    
     padding: 0.5rem;
-    text-decoration: none;
     width: 15rem;
 }
 
@@ -110,7 +103,6 @@ a.links:hover {
 
 .install_text_color {
     color: var(--secondary-color);
-    text-decoration: none;
 }
 
 .doc_link {

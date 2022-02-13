@@ -16,7 +16,7 @@ img {
 }
 
 hr {
-    margin: 0 2rem 0 2rem;
+    margin: 0 2rem;
 }
 
 p {
@@ -35,3 +35,14 @@ button {
 a {
     text-decoration: none;
 }
+.iframe_style{
+    width: 150rem;
+    height: 20rem;
+    border: 0;
+    transform: scale(1);
+    overflow-y: hidden;
+}
+
+
+
+
