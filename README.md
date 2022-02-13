@@ -10,7 +10,7 @@ A CSS-UI-Galaxy is the component library.It is user friendly and it make easier 
 ## Version
     0.1
 ##  How to use CSS-UI-Galaxy?
- - In your project install the UI which is shown in this follow the instruction [Installation](https://css-ui-galaxy.netlify.app/getstarted/install.html).
+ - In your project install the UI which is shown in this follow the instruction [Installation](https://css-ui-galaxy-c.netlify.app/getstarted/install.html).
  - OR else copy this link `<link rel="stylesheet" href="https://css-ui-galaxy-c.netlify.app/CSS/base.css">`
  and paste it in your head tag .
 
