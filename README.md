@@ -28,6 +28,6 @@ A CSS-UI-Galaxy is the component library.It is user friendly and it make easier 
 - Toast
 - Typography
 
-This [Documentation](https://css-ui-galaxy-c.netlify.app/getstarted/index.html) helps you to understand how the component work.
+This [Documentation](https://css-ui-galaxy-c.netlify.app/index.html) helps you to understand how the component work.
 
 ### live [Link](https://css-ui-galaxy-c.netlify.app/getstarted/main.html)
