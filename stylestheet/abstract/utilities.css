@@ -34,6 +34,7 @@ button {
 
 a {
     text-decoration: none;
+    cursor: pointer;
 }
 .iframe_style{
     width: 150rem;
