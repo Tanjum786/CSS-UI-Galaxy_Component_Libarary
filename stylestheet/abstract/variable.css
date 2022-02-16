@@ -19,9 +19,11 @@
     --golden-color: #fbbf24;
     --lightgolden-color: #fde68a;
     --loginbtn-color:#3b82f6;
+    --lightblue-color: #60a5fa;
+    --background-color:#f9fafb;
 
 
     /* font family */
-    --primary-font: '   ', serif;
+    --primary-font: 'Playfair Display', serif;
     --secondary-font: 'Quintessential', cursive;
 }
