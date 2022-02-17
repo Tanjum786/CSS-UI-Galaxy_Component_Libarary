@@ -47,5 +47,15 @@ a {
 .dis_flex{
     display: flex;
 }
-
-
+.font_small{
+    font-size: 1rem;
+}
+.padding_small{
+    padding: 0.5rem;
+}
+.gap_s{
+    gap: 1rem;
+}
+.bg_color{
+    background-color:var(--background-color) ;
+}
