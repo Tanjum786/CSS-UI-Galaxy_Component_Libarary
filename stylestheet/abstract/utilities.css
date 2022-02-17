@@ -36,7 +36,8 @@ a {
     text-decoration: none;
     cursor: pointer;
 }
-.iframe_style{
+
+.iframe_style {
     width: 150rem;
     height: 20rem;
     border: 0;
@@ -44,18 +45,22 @@ a {
     overflow-y: hidden;
 }
 
-.dis_flex{
+.dis_flex {
     display: flex;
 }
-.font_small{
+
+.font_small {
     font-size: 1rem;
 }
-.padding_small{
+
+.padding_small {
     padding: 0.5rem;
 }
-.gap_s{
+
+.gap_s {
     gap: 1rem;
 }
-.bg_color{
-    background-color:var(--background-color);
+
+.bg_color {
+    background-color: var(--pureWhite-color);
 }
