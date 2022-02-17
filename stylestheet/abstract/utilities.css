@@ -44,6 +44,8 @@ a {
     overflow-y: hidden;
 }
 
-
+.dis_flex{
+    display: flex;
+}
 
 
