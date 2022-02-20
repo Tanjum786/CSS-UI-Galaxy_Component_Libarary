@@ -20,9 +20,9 @@
 }
 
 .left_div {
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
-    box-shadow: 10px 10px 10px -15px;
     position: sticky;
     top: 0;
     height: 40rem;
@@ -52,7 +52,7 @@
     color: var(--secondary-color);
     font-size: 1.5rem;
     font-weight: bold;
-    text-decoration: noComponents
+    text-decoration: none;
 }
 
 .right_div {
@@ -71,8 +71,7 @@
 
 .para {
     color: var(--secondary-color);
-    margin-left: 2rem;
-    margin-top: 1rem;
+    margin: 2rem 1rem;
     padding: 0rem;
 }
 
@@ -87,8 +86,7 @@
     flex-wrap: wrap;
     color: var(--component-color);
     font-size: 2rem;
-    margin-left: 2rem;
-    margin-top: 2rem;
+    margin: 2rem 2rem;
 }
 
 .component_box {
@@ -98,14 +96,12 @@
     flex-wrap: wrap;
     justify-content: center;
     padding: 3rem;
-    margin-left: 3rem;
-    margin-top: 2rem;
+    margin: 3rem 2rem;
 }
 
 .component_code {
     display: flex;
     gap: 1rem;
-    /* border: 1px solid black; */
     justify-content: center;
 }
 
