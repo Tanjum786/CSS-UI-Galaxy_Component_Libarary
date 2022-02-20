@@ -56,9 +56,7 @@
 }
 
 .right_div {
-    width: 80%;
-    border: 3px solid honeydew;
-
+    max-width: 80%;
 }
 
 .item {
@@ -66,7 +64,7 @@
 }
 
 .components:hover {
-    background-color: lightgray;
+    background-color:var(--boder-color);
     border-radius: 0.5rem;
     color: var(--primary-color);
 }
@@ -106,6 +104,8 @@
 
 .component_code {
     display: flex;
+    gap: 1rem;
+    /* border: 1px solid black; */
     justify-content: center;
 }
 

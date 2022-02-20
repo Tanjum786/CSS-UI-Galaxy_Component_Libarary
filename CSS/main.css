@@ -54,7 +54,7 @@ a.links:hover {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-        padding: 5rem;
+    padding: 5rem;
     text-align: center;
 }
 
@@ -70,13 +70,13 @@ a.links:hover {
     border-radius: 0.5rem;
     color: var(--white-color);
     font-size: 2rem;
-    margin-top: 2rem;    
+    margin-top: 2rem;
     padding: 0.5rem;
     width: 15rem;
 }
 
 .doc_page:hover {
-    background-color: white;
+    background-color:var(--white-color);
     box-shadow: 2px 1px 2px 1px var(--secondary-color);
     border: 3px solid var(--primary-color);
     color: var(--primary-color);
