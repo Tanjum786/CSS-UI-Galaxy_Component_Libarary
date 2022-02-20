@@ -73,16 +73,16 @@ a.links:hover {
     margin-top: 2rem;
     padding: 0.5rem;
     width: 15rem;
+    border: 3px solid var(--primary-color);
 }
 
 .doc_page:hover {
-    background-color:var(--white-color);
+    background-color: var(--white-color);
     box-shadow: 2px 1px 2px 1px var(--secondary-color);
     border: 3px solid var(--primary-color);
     color: var(--primary-color);
 }
 
-/* insatllation part */
 .install_container {
     padding: 5rem;
     width: 100%;
@@ -91,9 +91,8 @@ a.links:hover {
 .install_head {
     display: flex;
     justify-content: center;
-    font-family: var(--secondary-font);
     color: var(--primary-color);
-    font-size: 3rem;
+    font-size: 2rem;
     text-decoration: underline;
 }
 
@@ -108,4 +107,37 @@ a.links:hover {
 .doc_link {
     color: var(--primary-color);
     font-weight: bold;
+}
+
+.footer {
+    background-color: var(--black-color);
+}
+
+.list-item-inline {
+    list-style: none;
+    border-radius: 50%;
+}
+
+.icon_foote:hover {
+    color: var(--black-color);
+}
+
+.list-item-inline:hover {
+    background-color: var(--gray-color);
+}
+
+footer {
+    width: 100%;
+    color: var(--pureWhite-color);
+}
+
+.icon_footer {
+    font-size: 1rem;
+    color: var(--pureWhite-color);
+}
+
+.footer-header,
+.social_media_links {
+    justify-content: center;
+    flex-wrap: wrap;
 }

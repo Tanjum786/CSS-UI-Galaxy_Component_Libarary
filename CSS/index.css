@@ -100,27 +100,15 @@
 }
 
 .component_code {
+    border: 1px solid var(--boder-color);
+    border-radius: 0.5rem;
     display: flex;
-    gap: 1rem;
+    flex-wrap: wrap;
     justify-content: center;
+    margin: 3rem 2rem;
+
 }
 
 .primary_text_color {
     color: var(--primary-color);
 }
-
-
-/* 
-@media(max-width: 998) {
-    html {
-        font-size: 55%;
-    }
-
-}
-
-@media(max-width: 768) {
-    html {
-        font-size: 45%;
-    }
-
-} */
