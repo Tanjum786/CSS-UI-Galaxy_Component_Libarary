@@ -30,4 +30,10 @@ A CSS-UI-Galaxy is the component library.It is user friendly and it make easier 
 
 This [Documentation](https://css-ui-galaxy-c.netlify.app/index.html) helps you to understand how the component work.
 
-### live [Link](https://css-ui-galaxy-c.netlify.app/getstarted/main.html)
+# live [Link](https://css-ui-galaxy-c.netlify.app/getstarted/main.html)
+
+# vedio of the component library
+
+https://user-images.githubusercontent.com/84380051/154931994-f8fc062b-cad2-48c5-9ff8-f2656c91ec9b.mp4
+
+
