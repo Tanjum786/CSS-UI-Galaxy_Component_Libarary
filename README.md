@@ -32,7 +32,7 @@ This [Documentation](https://css-ui-galaxy-c.netlify.app/index.html) helps you t
 
 # live [Link](https://css-ui-galaxy-c.netlify.app/getstarted/main.html)
 
-# vedio of the component library
+# video of the component library
 
 https://user-images.githubusercontent.com/84380051/154931994-f8fc062b-cad2-48c5-9ff8-f2656c91ec9b.mp4
 
