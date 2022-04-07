@@ -1,0 +1,44 @@
+.modal_btn,
+.cross_btn {
+    border: none;
+}
+
+.title_container,
+.modal_btn {
+    padding: 00.5rem;
+}
+
+.modal_container {
+    width: 25rem;
+    height: 12rem;
+    box-shadow: 2px 2px 2px 2px var(--gray-color);
+}
+
+.title_container {
+    justify-content: space-between;
+}
+
+.cross_btn {
+    background-color: var(--pureWhite-color);
+    font-size: 2rem;
+}
+
+.modal_btn_conatiner {
+    justify-content: flex-end;
+    gap: 1rem;
+    margin: 0.5rem;
+}
+
+.modal_btn {
+    background-color: var(--primary-color);
+    color: var(--pureWhite-color);
+    border-radius: 0.5rem;
+}
+
+.close_btn {
+    background-color: var(--danger-alert-color);
+}
+
+.modal_btn:hover {
+    opacity: 0.7;
+}
