@@ -978,12 +978,12 @@
             </div>
             <hr />
             <div id="modal">
-                <h1 class="component_heading">Modal</h1>
+                <h1 class="component_heading">Slider</h1>
                 <p class="para">
-                    Modals are dailogue box which are used to show pop up notification or advertising products or it is
-                    also used to popup the list of items.
+                    A range slider is an input field that merchants can use to select a
+                    numeric value within a given range (minimum and maximum values).
                 </p>
-                <h2 class="component_example">Sample Modals</h2>
+                <h2 class="component_example">Range slider (volume button)</h2>
                 <div class="component_box">
                     <div class="modal_container">
                         <div class="title_container dis_flex">
@@ -995,20 +995,35 @@
                             <button class="modal_btn close_btn">Close</button>
                             <button class="modal_btn">Save change</button>
                         </div>
+                    <div class="slide_fontsize dis_flex gap_s">
+                        <i class="fas fa-solid fa-volume-xmark icon_range"></i>
+                        <input type="range" name="value" max="10" class="range_slide" />
+                        <i class="fa-solid fa-volume-high icon_range"></i>
                     </div>
-
+                </div>
+                <div class="component_code">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2509%2509%2509%253Cdiv%2520class%253D%2522dis_flex%2520gap_s%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-solid%2520fa-volume-xmark%2520icon_range%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522range%2522%2520name%253D%2522value%2522%2520max%253D%252210%2522%2520class%253D%2522range_slide%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-volume-high%2520icon_range%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                        style="width: 1033px; height: 277px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <h2 class="component_example">Range slider(disable)</h2>
+                <div class="component_box">
+                    <div>
+                        <input type="range" name="value" max="10" disabled="true" class="range_slide" />
+                    </div>
+                </div>
+                <div class="component_code">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%2509%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522range%2522%2520name%253D%2522value%2522%2520max%253D%252210%2522%2520disabled%253D%2522true%2522%2520class%253D%2522range_slide%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                        style="width: 1500px; height: 235px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
                 </div>
             </div>
-            <div class="component_code">
-                <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%253Cdiv%2520class%253D%2522modal_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522title_container%2520dis_flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253EModel%2520titel%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522cross_btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-xmark%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EModel%2520body%2520text%2520goes%2520here%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal_btn_conatiner%2520dis_flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522modal_btn%2520close_btn%2522%253EClose%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522modal_btn%2522%253ESave%2520change%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                    style="width: 1000px; height: 400px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
-        </div>
 
-    </div>
+        </div>
     </div>
 </body>
 
