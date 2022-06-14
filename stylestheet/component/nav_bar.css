@@ -18,7 +18,7 @@
 
 .nav_bar {
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 5rem;
     box-shadow: 15px 15px 15px -15px var(--black-color);
