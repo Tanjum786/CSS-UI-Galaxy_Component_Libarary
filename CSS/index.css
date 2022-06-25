@@ -1,114 +1,105 @@
 @import url(/CSS/base.css);
 
 .main_div {
-    display: flex;
-    width: 100%;
+  display: flex;
 }
 
 .intall_tab {
-    display: flex;    
-    justify-content: center;
-    color: var(--primary-color);
-    font-weight: bold;
-    padding: 0.5rem;
-}
-
-.intall_tab:hover {
-    background-color: var(--primary-color);
-    color: var(--white-color);
-    opacity: 0.7;
+  padding: 0.5rem;
 }
 
 .left_div {
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: column;
-    position: sticky;
-    top: 0;
-    height: 40rem;
-    width: 25rem;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    background-color: var(--white-color);
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 5rem;
+  height: 40rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: var(--white-color);
 }
 
 .content {
-    display: flex;
-    justify-content: center;
-    font-size: 2rem;
-    padding: 0;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  padding: 0;
 }
 
 .box1 {
-    position: sticky;
-    top: 0;
-    background-color: var(--white-color);
+  position: sticky;
+  top: 0;
+  background-color: var(--white-color);
 }
 
 .item a {
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
-    color: var(--secondary-color);
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-decoration: none;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  color: var(--secondary-color);
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .right_div {
-    max-width: 80%;
+  max-width: 80%;
 }
 
 .item {
-    padding: 1rem;
+  padding: 1rem;
 }
 
-.components:hover {
-    background-color:var(--boder-color);
-    border-radius: 0.5rem;
-    color: var(--primary-color);
+.components:hover ,.intall_tab:hover{
+  background-color: var(--boder-color);
+  border-radius: 0.5rem;
+  color: var(--primary-color);
 }
 
 .para {
-    color: var(--secondary-color);
-    margin: 2rem 1rem;
-    padding: 0rem;
+  color: var(--secondary-color);
+  margin: 2rem 1rem;
+  padding: 0rem;
 }
 
 .component_heading {
-    color: var(--component-color);
-    font-size: 3rem;
-    margin: 2rem 2rem;
+  color: var(--component-color);
+  font-size: 3rem;
+  margin: 2rem 2rem;
 }
 
 .component_example {
-    display: flex;
-    flex-wrap: wrap;
-    color: var(--component-color);
-    font-size: 2rem;
-    margin: 2rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  color: var(--component-color);
+  font-size: 2rem;
+  margin: 2rem 2rem;
 }
 
 .component_box {
-    border: 3px solid var(--boder-color);
-    border-radius: 0.5rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 3rem;
-    margin: 3rem 2rem;
+  border: 3px solid var(--boder-color);
+  border-radius: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 3rem;
+  margin: 3rem 2rem;
 }
 
 .component_code {
-    border: 1px solid var(--boder-color);
-    border-radius: 0.5rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 3rem 2rem;
-
+  border: 1px solid var(--boder-color);
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  margin: 3rem 2rem;
 }
 
 .primary_text_color {
-    color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn_floting_action{
+  position: fixed;
+  bottom: 2rem;
+  right: 1rem;
 }

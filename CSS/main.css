@@ -6,9 +6,9 @@
 .navigation {
     background-color: var(--white-color);
     box-shadow: 10px 10px 10px -15px var(--black-color);
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
-    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
     position: sticky;
     top: 0;
     z-index: 1;
@@ -18,14 +18,15 @@
     display: flex;
     gap: 6rem;
     justify-content: flex-end;
+    align-items: center;
     list-style: none;
-    margin-right: 5rem;
+    padding: 2rem;
+
 }
 
 .links {
     color: var(--black-color);
     font-size: 2rem;
-    font-weight: bold;
 }
 
 a.links:hover {
@@ -37,7 +38,7 @@ a.links:hover {
     display: flex;
     flex-direction: column;
     font-family: var(--secondary-font);
-    margin-left: 5rem;
+    margin-left: 3rem;
 }
 
 .ui_name {
@@ -53,34 +54,30 @@ a.links:hover {
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
-    padding: 5rem;
+    padding: 10rem;
+    height: 100vh;
     text-align: center;
 }
 
 .landing_tag {
     color: var(--secondary-color);
-    font-size: 3rem;
-    margin-top: 5rem;
+    font-size: 2.5rem;
 }
 
 .doc_page {
     background-color: var(--primary-color);
-    box-shadow: 1px 2px 1px 2px var(--secondary-color);
-    border-radius: 0.5rem;
     color: var(--white-color);
-    font-size: 2rem;
-    margin-top: 2rem;
-    padding: 0.5rem;
-    width: 15rem;
-    border: 3px solid var(--primary-color);
+    padding: 1rem;
+    width: 10rem;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    transition: all 0.7s ease-in-out;
 }
 
 .doc_page:hover {
-    background-color: var(--white-color);
-    box-shadow: 2px 1px 2px 1px var(--secondary-color);
-    border: 3px solid var(--primary-color);
-    color: var(--primary-color);
+    background-color: var(--loginbtn-color);
+    opacity: 0.7;
+
 }
 
 .install_container {
@@ -111,6 +108,7 @@ a.links:hover {
 
 .footer {
     background-color: var(--black-color);
+    margin-bottom: 0;
 }
 
 .list-item-inline {

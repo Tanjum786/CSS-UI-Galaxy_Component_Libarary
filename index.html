@@ -2,1076 +2,1690 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS UI Galaxy | docs</title>
-    <link rel="icon" type="image" href="/stylestheet/assets/fevicon1.ico">
-    <link rel="stylesheet" href="/CSS/index.css">
-    <script src="https://kit.fontawesome.com/8ddd15368f.js" crossorigin="anonymous"></script>
-
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS UI Galaxy | docs</title>
+  <link rel="icon" type="image" href="/stylestheet/assets/fevicon1.ico" />
+  <link rel="stylesheet" href="/CSS/index.css" />
+  <script src="https://kit.fontawesome.com/8ddd15368f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/base16/summerfruit-dark.min.css" />
 </head>
 
 <body>
-    <nav class="navigation">
-        <div class="name">
-            <a class="ui_link" href="/getstarted/main.html">
-                <h1 class="ui_name">CSS UI Galaxy</h1>
-            </a>
-            <h5 class="ui_taglimainne">Get Your Own Design</h5>
-        </div>
-        <ul class="list">
-            <li class="list_inline"><a class="links" href="/getstarted/main.html">Home</a></li>
-            <li class="list_inline"><a class="links" href="index.html">Documentation</a></li>
-            <li class="list_inline"><a class="links" href="https://github.com/Tanjum786"><i
-                        class="fab fa-github"></i></a></li>
-            <li class="list_inline"><a class="links" href="https://www.linkedin.com/in/tanjum-kadakol-665a69225/"><i
-                        class="fab fa-linkedin"></i></a></li>
-        </ul>
-    </nav>
-    <div class="main_div">
-        <div class="left_div">
-            <div class="box1">
-                <p class="content">Get Started</p>
-                <p><a class="intall_tab" href="getstarted/install.html"> Installation</a></p>
-                <p class="content">Components</p>
-                <hr>
-            </div>
-            <div class="item">
-                <a class="components" href="#avatar">Avatar</a>
-            </div>
-            <div class="item">
-                <a class="components" href="#alerts">Alerts</a>
-            </div>
-            <div class="item">
-                <a class="components" href="#badge">Badge</a>
-            </div>
-            <div class="item">
-                <a class="components" href="#button">Button</a>
-            </div>
-            <div class="item">
-                <a class="components" href="#image">Image</a>
-            </div>
-            <div class="item">
-                <a class="components" href="#rating">Rating</a>
-            </div>
-            <div class="item">
-                <a class="components" href="#input">Input</a>
-            </div>
-            <div class="item">
-                <a class="components" href="#list">list</a>
-            </div>
-            <div class="item">
-                <a class="components" href="#toast">Toast</a>
-            </div>
-            <div class="item">
-                <a class="components" href="#typography">Typography</a>
-            </div>
-            <div class="item">
-                <a class="components" href="#card">Card</a>
-            </div>
-            <div class="item">
-                <a class="components" href="#navigation">Navigation</a>
-            </div>
-            <div class="item">
-                <a class="components" href="#slider">Slider</a>
-            </div>
-            <div class="item">
-                <a class="components" href="#modal">Modal</a>
-            </div>
-            <div class="item">
-                <a class="components" href="#grid">Simplified Grid
-                </a>
-            </div>
-        </div>
-        <div class="right_div">
-            <!-- Avatar component  -->
-            <div id="avatar">
-                <h1 class="component_heading">Avatar</h1>
-                <p class="para">Avatar is an profile picture.used for represent the user Identity and dispalys the
-                    profile picture.This Avatar component will help you to build differnet size of Avatars as shown in
-                    below.
-                </p>
-
-                <h2 class="component_example">Example of Image Avatars</h2>
-                <div>
-                    <p class="para">
-                        Avatar are in differnet sizes to use these avatar.you have to add class
-                        <span class="primary_text_color">avatar</span> for size add class according to size like <span
-                            class="primary_text_color">avatar_lg_size, avatar_medium_size, avatar_small_size,
-                            avatar_xs_size</span>
-                        for (e.g. <span class="primary_text_color">class= avatar_border avatar-lg-size</span>)<br>
-                    </p>
-                </div>
-                <div class="component_box">
-                    <div class="avatar_image">
-                        <img src="/stylestheet/assets/avatar.jpg" class="avatar_border avatar_lg_size" alt="avatar">
-                        <img src="/stylestheet/assets/avatar.jpg" class="avatar_border avatar_medium_size" alt="avatar">
-                        <img src="/stylestheet/assets/avatar.jpg" class="avatar_border avatar_small_size" alt="avatar">
-                        <img src="/stylestheet/assets/avatar.jpg" class="avatar_border avatar_xs_size" alt="avatar">
-                    </div>
-                </div>
-                <div class="component_code">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=auto&width=1080&ds=false&dsyoff=1.25rem&dsblur=4.25rem&wc=true&wa=true&pv=3.5rem&ph=3.5rem&ln=false&fl=1&fm=Hack&fs=.875rem&lh=133%25&si=false&es=2x&wm=false&code=%2509%253Cdiv%2520class%253D%2522avatar_image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fstylestheet%252Fassets%252Favatar.jpg%2522%2520class%253D%2522avatar_border%2520avatar_lg_size%2522alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fstylestheet%252Fassets%252Favatar.jpg%2522%2520class%253D%2522avatar_border%2520avatar_medium_size%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fstylestheet%252Fassets%252Favatar.jpg%2522%2520class%253D%2522avatar_border%2520avatar_small_size%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fstylestheet%252Fassets%252Favatar.jpg%2522%2520class%253D%2522avatar_border%2520avatar_xs_size%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
-                        class="iframe_style" sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-                <h2 class="component_example">Example of Text Avatars</h2>
-                <div class="component_box">
-                    <div class="avatar_image">
-                        <div class="avatar_border avatar_lg_size avatar_text">AB</div>
-                        <div class="avatar_border avatar_medium_size avatar_text">AB</div>
-                        <div class="avatar_border avatar_small_size avatar_text">AB</div>
-                        <div class="avatar_border avatar_xs_size avatar_text">AB</div>
-                    </div>
-                </div>
-                <div class="component_code">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=auto&width=1080&ds=false&dsyoff=1.25rem&dsblur=4.25rem&wc=true&wa=true&pv=3.5rem&ph=3.5rem&ln=false&fl=1&fm=Hack&fs=.875rem&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar_image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar_border%2520avatar_lg_size%2520avatar_text%2522%253EAB%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar_border%2520avatar_medium_size%2520avatar_text%2522%253EAB%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar_border%2520avatar_small_size%2520avatar_text%2522%253EAB%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar_border%2520avatar_xs_size%2520avatar_text%2522%253EAB%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                        class="iframe_style" sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-            </div>
-            <hr>
-            <!-- Alerts component -->
-            <div id="alerts">
-                <h1 class="component_heading">Alerts</h1>
-                <p class="para">
-                    Alerts are urgent interruptions.Alerts are used to disply a short important message in a way that
-                    attarcts the user's attention.Alerts are used to inform the user about a situation.
-                </p>
-                <h2 class="component_example">Example of Alerts</h2>
-                <div>
-                    <p class="para">
-                        This component available for us, and it is very easy to integrate. Alerts are in differnet types
-                        like-warning alert, primary alert,secondary alert,danger alert,success alert. To use these
-                        Alerts.You have to add class
-                        <span class="primary_text_color">alert_container</span> for differnet types add class
-                        accordingly like <span class="primary_text_color">alert_primary, alert_secondary,
-                            alert_danger,alert_warning,alert_success.</span>
-                        for (e.g. <span class="primary_text_color">class= alert_container alert_success</span>)<br>
-                    </p>
-                </div>
-                <div class="component_box alert_box">
-                    <div class="alert_container">
-                        Primary Alert message with Text link <a href="#alerts" class="alert_primary">Download !</a>
-                    </div>
-                    <div class="alert_container alert_secondary">Secondary Alert message !</div>
-                    <div class="alert_container alert_success">
-                        <i class="far fa-check-circle"> Success Alert message !</i></div>
-                    <div class="alert_container alert_danger">
-                        <i class="fas fa-exclamation-triangle"> Danger Alert message !</i></div>
-                    <div class="alert_container alert_warning">
-                        <i class="fas fa-exclamation-triangle"> Warning Alert message !</i></div>
-                </div>
-                <div class="component_code">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=auto&width=1080&ds=false&dsyoff=1.25rem&dsblur=4.25rem&wc=true&wa=true&pv=3.5rem&ph=3.5rem&ln=false&fl=1&fm=Hack&fs=.875rem&lh=133%25&si=false&es=2x&wm=false&code=%2520%2509%253Cdiv%2520class%253D%2522alert_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520Primary%2520Alert%2520message%2520with%2520Text%2520link%2520%253Ca%2520href%253D%2522%2523alerts%2522%2520class%253D%2522alert_primary%2522%253EDownload%2520%21%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert_container%2520alert_secondary%2522%253ESecondary%2520Alert%2520message%2520%21%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert_container%2520alert_success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-check-circle%2522%253E%2520Success%2520Alert%2520message%2520%21%253C%252Fi%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert_container%2520alert_danger%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%2520Danger%2520Alert%2520message%2520%21%253C%252Fi%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert_container%2520alert_warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%2520Warning%2520Alert%2520message%2520%21%253C%252Fi%253E%250A%2509%2509%253C%252Fdiv%253E"
-                        class="iframe_style" sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-            </div>
-            <hr>
-            <!-- Badge component -->
-            <div id="badge">
-                <h1 class="component_heading">Badges</h1>
-                <p class="para">
-                    A badge indicates a status information from the system. It is used to highlight a numerical
-                    characteristic or mark an item.
-                </p>
-                <h2 class="component_example">Example of differnet Badges</h2>
-                <div>
-                    <p class="para">
-                        This component available for us, and it is very easy to integrate.Badges are in differnet
-                        types- like on avatar showing person online status and badge on icons like cart ,message box
-                        that show the notifiaction counts.
-                    </p>
-                </div>
-                <div class="component_box">
-                    <div class="avatar_image">
-                        <div class="badge_container">
-                            <span class="badge"></span>
-                            <img src="/stylestheet/assets/avatar.jpg" class="avatar_border avatar_lg_size" alt="avatar">
-                        </div>
-                        <div class="badge_container">
-                            <span class="badge badge_md_size badge_md"></span>
-                            <img src="/stylestheet/assets/avatar.jpg" class="avatar_border avatar_medium_size"
-                                alt="avatar">
-                        </div>
-                        <div class="badge_container">
-                            <span class="badge badge_small_size badge_small"></span>
-                            <div class="avatar_border avatar_small_size avatar_text">AB</div>
-                        </div>
-                        <div class="badge_container">
-                            <span class="badge badge_small_size  badge_xs"></span>
-                            <div class="avatar_border avatar_xs_size avatar_text">AB</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="component_code">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=auto&width=1080&ds=false&dsyoff=1.25rem&dsblur=4.25rem&wc=true&wa=true&pv=3.5rem&ph=3.5rem&ln=false&fl=1&fm=Hack&fs=.875rem&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522avatar_image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fstylestheet%252Fassets%252Favatar.jpg%2522%2520class%253D%2522avatar_border%2520avatar_lg_size%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge_md_size%2520badge_md%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fstylestheet%252Fassets%252Favatar.jpg%2522%2520class%253D%2522avatar_border%2520avatar_medium_size%2522alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge_small_size%2520badge_small%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar_border%2520avatar_small_size%2520avatar_text%2522%253EAB%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge_small_size%2520%2520badge_xs%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar_border%2520avatar_xs_size%2520avatar_text%2522%253EAB%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
-                        class="iframe_style" sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-                <h2 class="component_example">Example of differnet icon Badges</h2>
-                <div>
-                    <p class="para">
-                        These are icon badges basically used in message box .
-                        that show the notifiaction counts.You can creat your badges with copying below Html
-                        snippet.
-                    </p>
-                </div>
-                <div class="component_box icon_box">
-                    <div class="avatar_image">
-                        <div class="badge_container">
-                            <span class="badge badge_md_size badge_icon">3</span>
-                            <i class="fas fa-shopping-cart shopping_icon"></i>
-                        </div>
-                        <div class="badge_container">
-                            <span class="badge badge_md_size badge_icon">3</span>
-                            <i class="fas fa-home home"></i> </div>
-                        <div class="badge_container">
-                            <span class="badge badge_small_size  badge_btn"></span>
-                            <button class="btn_badge">Badge</button>
-                        </div>
-                        <div class="badge_container">
-                            <button class="new_btn">New</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="component_code">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=auto&width=1080&ds=false&dsyoff=1.25rem&dsblur=4.25rem&wc=true&wa=true&pv=3.5rem&ph=3.5rem&ln=false&fl=1&fm=Hack&fs=.875rem&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%253Cdiv%2520class%253D%2522avatar_image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge_md_size%2520badge_icon%2522%253E3%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520shopping_icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge_md_size%2520badge_icon%2522%253E3%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-home%2520home%2522%253E%253C%252Fi%253E%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520badge_small_size%2520%2520badge_btn%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn_badge%2522%253EBadge%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522new_btn%2522%253ENew%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                        class="iframe_style" sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-            </div>
-            <hr>
-            <!-- button componet -->
-            <div id="button">
-                <h1 class="component_heading">Button</h1>
-                <p class="para">
-                    Button are also called as Call to action.To creat a button we can use button element or achor
-                    tag.Buttons allow users to take actions, and make choices, with a single tap. In button component
-                    there are some varients in style of buttons like-primary button ,secondary button ,folating
-                    buttons,outline button.You can use this component by copying below mentioned html snippet.
-
-                </p>
-                <h2 class="component_example">Example of Primary Buttons</h2>
-                <div>
-                    <p class="para">
-                        Primary buttons (with icons) can be used to indicate the most important call to action in your
-                        user interface.
-                    </p>
-                </div>
-                <div class="component_box button_box">
-                    <div class="btn_container">
-                        <a class="btn_primary">Primary-Solid</a>
-                        <a class="btn_primary primary-outline">Primary-outline</a>
-                        <a class="btn_primary"> <i class="fas fa-shopping-cart cart_icon"></i> Add to Cart</a>
-                        <a class="primary_text">Primary-Text</a>
-                    </div>
-                </div>
-                <div class="component_code">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=auto&width=1080&ds=false&dsyoff=1.25rem&dsblur=4.25rem&wc=true&wa=true&pv=3.5rem&ph=3.5rem&ln=false&fl=1&fm=Hack&fs=.875rem&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%253Cdiv%2520class%253D%2522btn_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522btn_primary%2522%253EPrimary-Solid%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522btn_primary%2520primary-outline%2522%253EPrimary-outline%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522btn_primary%2522%253E%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2520cart_icon%2522%253E%253C%252Fi%253E%2520Add%2520to%2520Cart%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522primary_text%2522%253EPrimary-Text%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                        class="iframe_style" sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-                <h2 class="component_example">Example of Secondary Button</h2>
-                <div>
-                    <p class="para">
-                        Secondary buttons are used for offering non-primary actions to users.Secondary actions are any
-                        actions that are less important.
-                    </p>
-                </div>
-                <div class="component_box button_box">
-                    <div class="btn_container">
-                        <a href="#" class="secondary_btn solid_secondary">Solid</a>
-                        <a href="#" class="secondary_btn outline">Outline</a>
-                        <a href="#" class="delete"><i class="fas fa-trash-alt trash"></i></a>
-                        <a href="#" class="link">Text-Link</a>
-                    </div>
-                </div>
-                <div class="component_code">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=auto&width=1080&ds=false&dsyoff=1.25rem&dsblur=4.25rem&wc=true&wa=true&pv=3.5rem&ph=3.5rem&ln=false&fl=1&fm=Hack&fs=.875rem&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522btn_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522secondary_btn%2520solid_secondary%2522%253ESolid%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522secondary_btn%2520outline%2522%253EOutline%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522delete%2522%253E%253Ci%2520class%253D%2522fas%2520fa-trash-alt%2520trash%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522link%2522%253EText-Link%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                        class="iframe_style" sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-                <h2 class="component_example">Example of Floating action Button</h2>
-                <div>
-                    <p class="para">
-                        A floating action button performs the primary, or most common, action on a screen. It appears in
-                        front of all screen content, typically as a circular shape with an icon in its center.
-                        You can create this by using below mentioned class and html tags.
-                    </p>
-                </div>
-                <div class="component_box button_box">
-                    <div class="btn_container">
-                        <a href="" class="floating_btn"><i class="fas fa-plus-circle icon_btn"></i></a>
-                        <a href="" class="floating_btn"><i class="fas fa-chevron-circle-right icon_btn"></i></a>
-                        <a href="" class="floating_btn"><i class="fas fa-chevron-circle-down icon_btn"></i></a>
-                    </div>
-                </div>
-                <div class="component_code">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=auto&width=1080&ds=false&dsyoff=1.25rem&dsblur=4.25rem&wc=true&wa=true&pv=3.5rem&ph=3.5rem&ln=false&fl=1&fm=Hack&fs=.875rem&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522btn_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522floating_btn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-plus-circle%2520icon_btn%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522floating_btn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-chevron-circle-right%2520icon_btn%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522floating_btn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-chevron-circle-down%2520icon_btn%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%253C%252Fdiv%253E"
-                        class="iframe_style" sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-            </div>
-            <hr>
-            <!-- Image component -->
-            <div id="image">
-                <h1 class="component_heading">Image</h1>
-                <p class="para">
-                    Responsive images are the set of techniques used to load the right image based on device
-                    resolution, orientation, screen size, network connection, and page layout.
-                </p>
-                <h2 class="component_example">Example For Responsive Images</h2>
-                <div>
-                    <p class="para">
-                        This image component contain responsive image you can use this with copying below mentioned
-                        html snippet.
-                        added 3 type of image like- square image ,round shape image
-                    </p>
-                </div>
-                <div class="component_box">
-                    <div class="image_container">
-                        <img src="/stylestheet/assets/res_image.jpg" class="image" alt="image">
-                        <img src="/stylestheet/assets/res_image.jpg" class="image image_round" alt="image">
-                    </div>
-                </div>
-                <div class="component_code">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=auto&width=1080&ds=false&dsyoff=1.25rem&dsblur=4.25rem&wc=true&wa=true&pv=3.5rem&ph=3.5rem&ln=false&fl=1&fm=Hack&fs=.875rem&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%253Cdiv%2520class%253D%2522image_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fstylestheet%252Fassets%252Fres_image.jpg%2522%2520class%253D%2522image%2522%2520alt%253D%2522image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fstylestheet%252Fassets%252Fres_image.jpg%2522%2520class%253D%2522image%2520image_round%2522%2520alt%253D%2522image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                        class="iframe_style" sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-            </div>
-            <hr>
-            <!-- Rating component -->
-            <div id="rating">
-                <h1 class="component_heading">Rating</h1>
-                <p class="para">
-                    Rating provides the opinion and expirence of customer on products. User can rate a product
-                    which they have purchased.
-                </p>
-                <h2 class="component_example">Example For Simple Ratings</h2>
-                <div>
-                    <p class="para">
-                        In rating their are many types in this component you can use some of them styles. By
-                        just copy and pasting the below mentioned code snippet of html.
-                    </p>
-                </div>
-                <div class="component_box Rating_box">
-                    <!-- pristine rating -->
-                    <div class="rating_container">
-                        <p class="rating_text">Pristine</p>
-                        <p class="rating_icon">
-                            <i class="fas fa-star star_color star_control"></i>
-                            <i class="fas fa-star star_color star_control"></i>
-                            <i class="fas fa-star star_color star_control"></i>
-                            <i class="fas fa-star star_color star_control"></i>
-                            <i class="fas fa-star star_color star_control"></i>
-                        </p>
-                    </div>
-                    <!-- read only rating -->
-                    <div class="rating_container">
-                        <p class="rating_text">Read Only</p>
-                        <p class="rating_icon">
-                            <i class="fas fa-star star_color star_read"></i>
-                            <i class="fas fa-star star_color star_read"></i>
-                            <i class="fas fa-star star_color star_read"></i>
-                            <i class="fas fa-star star_color"></i>
-                            <i class="fas fa-star star_color"></i>
-                        </p>
-                    </div>
-                    <!-- disabled rating -->
-                    <div class="rating_container">
-                        <p class="rating_text">Disabled</p>
-                        <p class="rating_icon">
-                            <i class="fas fa-star star_color star_disable"></i>
-                            <i class="fas fa-star star_color star_disable"></i>
-                            <i class="fas fa-star star_color star_disable"></i>
-                            <i class="fas fa-star star_color"></i>
-                            <i class="fas fa-star star_color"></i>
-                        </p>
-                    </div>
-                </div>
-                <div class="component_code">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=auto&width=1080&ds=false&dsyoff=1.25rem&dsblur=4.25rem&wc=true&wa=true&pv=3.5rem&ph=3.5rem&ln=false&fl=1&fm=Hack&fs=.875rem&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520pristine%2520rating%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522rating_text%2522%253EPristine%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522rating_icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520star_color%2520star_control%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520star_color%2520star_control%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520star_color%2520star_control%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520star_color%2520star_control%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520star_color%2520star_control%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520read%2520only%2520rating%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522rating_text%2522%253ERead%2520Only%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522rating_icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520star_color%2520star_read%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520star_color%2520star_read%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520star_color%2520star_read%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520star_color%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520star_color%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520disabled%2520rating%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522rating_text%2522%253EDisabled%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522rating_icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520star_color%2520star_disable%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520star_color%2520star_disable%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520star_color%2520star_disable%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520star_color%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520star_color%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                        class="iframe_style" sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-            </div>
-            <hr>
-            <!-- input component -->
-            <div id="input">
-                <h1 class="component_heading">Input</h1>
-                <p class="para">
-                    Input fields are an essential user interface design element.These input fileds used in many
-                    situation but most of people used for entring personal details,delivery address on e-commerce web
-                    forms.
-                </p>
-                <h2 class="component_example">Example simple input filed</h2>
-                <div>
-                    <p class="para">
-                        Inputs are used in forms to collect user related data.
-                    </p>
-                </div>
-                <div class="component_box input_box">
-                    <div>
-                        <label for="username" class="lable_text">Username *</label>
-                        <input type="text" name="text" id="username" placeholder="Enter your name">
-                    </div>
-                    <div>
-                        <label for="username" class="lable_text">Password *</label>
-                        <input type="text" name="text" id="username" placeholder="Enter password">
-                    </div>
-                </div>
-                <div class="component_code">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=1.25rem&dsblur=4.25rem&wc=true&wa=true&pv=3.5rem&ph=3.5rem&ln=false&fl=1&fm=Fira+Code&fs=.875rem&lh=152%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%2509%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522username%2522%2520class%253D%2522lable_text%2522%253EUsername%2520*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522text%2522%2520id%253D%2522username%2522%2520placeholder%253D%2522Enter%2520your%2520name%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522username%2522%2520class%253D%2522lable_text%2522%253EPassword%2520*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522text%2522%2520id%253D%2522username%2522%2520placeholder%253D%2522Enter%2520password%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                        class="iframe_style" sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-                <h2 class="component_example">Example simple input filed with validation</h2>
-                <div>
-                    <p class="para">
-                        This type of input used when the user entered wrong details.In this component have used the
-                        password hidden password text. you can use this with copying below html snippet.
-                    </p>
-                </div>
-                <div class="component_box input_box">
-                    <div>
-                        <label for="username" class="lable_text">Username *</label>
-                        <input type="text" name="text" id="username" placeholder="Enter your name">
-                    </div>
-                    <div>
-                        <label for="username" class="lable_text lable_text_color">Password *</label>
-                        <input type="password" name="text" id="username" placeholder="Enter password">
-                        <p class="valid_text lable_text_color">Invalid password entered</p>
-                    </div>
-                </div>
-                <div class="component_code">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=1.25rem&dsblur=4.25rem&wc=true&wa=true&pv=3.5rem&ph=3.5rem&ln=false&fl=1&fm=Fira+Code&fs=.875rem&lh=152%25&si=false&es=2x&wm=false&code=%2520%2509%2509%2509%2509%2509%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522username%2522%2520class%253D%2522lable_text%2522%253EUsername%2520*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522text%2522%2520id%253D%2522username%2522%2520placeholder%253D%2522Enter%2520your%2520name%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522username%2522%2520class%253D%2522lable_text%2520lable_text_color%2522%253EPassword%2520*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520name%253D%2522text%2522%2520id%253D%2522username%2522%2520placeholder%253D%2522Enter%2520password%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522valid_text%2520lable_text_color%2522%253EInvalid%2520password%2520entered%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                        class="iframe_style" sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-            </div>
-            <hr>
-            <!-- list component -->
-            <div id="list">
-                <h1 class="component_heading">List</h1>
-                <p class="para">
-                    Lists are continuous, vertical indexes of text or images.Lists are used to group together related
-                    pieces of information so they are clearly associated with each other and easy to read.In this
-                    component have explained about three lists they are-unordered list,ordered list and notification
-                    stack list.
-
-                </p>
-                <h2 class="component_example">Example of simple Unodered list with bullets</h2>
-                <div>
-                    <p class="para">
-                        To create Unodered list use below html snippet.With proper class as mention below.
-                    </p>
-                </div>
-                <div class="component_box list_box">
-                    <ul class="list_styles">
-                        <li>item1</li>
-                        <li>item3</li>
-                        <li>item4</li>
-                    </ul>
-                    <ul class="list_styles list_circle">
-                        <li>item1</li>
-                        <li>item3</li>
-                        <li>item4</li>
-                    </ul>
-                    <ul class="list_styles list_sq">
-                        <li>item1</li>
-                        <li>item3</li>
-                        <li>item4</li>
-                    </ul>
-                </div>
-                <div class="component_code">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=1.25rem&dsblur=4.25rem&wc=true&wa=true&pv=3.5rem&ph=3.5rem&ln=false&fl=1&fm=Fira+Code&fs=.875rem&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522list_styles%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Eitem1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Eitem3%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Eitem4%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522list_styles%2520list_circle%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Eitem1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Eitem3%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Eitem4%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522list_styles%2520list_sq%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Eitem1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Eitem3%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Eitem4%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Ful%253E"
-                        class="iframe_style" sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-                <h2 class="component_example">Example of simple Odered list without bullet</h2>
-                <div>
-                    <p class="para">
-                        To create Odered list of your choice bullet style use below html snippet.With proper class as
-                        mention below.
-                    </p>
-                </div>
-                <div class="component_box list_box">
-                    <ol class="list_styles">
-                        <li>item1</li>
-                        <li>item3</li>
-                        <li>item4</li>
-                    </ol>
-                    <ol class="list_styles list_upper_alphabet">
-                        <li>item1</li>
-                        <li>item3</li>
-                        <li>item4</li>
-                    </ol>
-                    <ol class="list_styles list_lower_alphabet">
-                        <li>item1</li>
-                        <li>item3</li>
-                        <li>item4</li>
-                    </ol>
-                    <ol class="list_styles list_roman">
-                        <li>item1</li>
-                        <li>item3</li>
-                        <li>item4</li>
-                    </ol>
-                    <ol class="list_styles list_upper_roman">
-                        <li>item1</li>
-                        <li>item3</li>
-                        <li>item4</li>
-                    </ol>
-                </div>
-                <div class="component_code">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=1.25rem&dsblur=4.25rem&wc=true&wa=true&pv=3.5rem&ph=3.5rem&ln=false&fl=1&fm=Fira+Code&fs=.875rem&lh=152%25&si=false&es=2x&wm=false&code=%2509%2509%253Col%2520class%253D%2522list_styles%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Eitem1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Eitem3%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Eitem4%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fol%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Col%2520class%253D%2522list_styles%2520list_upper_alphabet%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Eitem1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Eitem3%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Eitem4%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fol%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Col%2520class%253D%2522list_styles%2520list_lower_alphabet%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Eitem1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Eitem3%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Eitem4%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fol%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Col%2520class%253D%2522list_styles%2520list_roman%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Eitem1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Eitem3%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Eitem4%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fol%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Col%2520class%253D%2522list_styles%2520list_upper_roman%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Eitem1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Eitem3%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Eitem4%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fol%253E"
-                        class="iframe_style" sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-                <h2 class="component_example">Example of with inline list and without bullets list</h2>
-                <div>
-                    <p class="para">
-                        To create inline list you can use class <span class="primary_text_color">list_inline</span> and
-                        css property <span class="primary_text_color">disply:inline</span> and to remove list bullet use
-                        class <span class="primary_text_color">list_bullet_none</span> css property <span
-                            class="primary_text_color">list-style:none</span> else use below html snippet.With proper
-                        class as mention below.
-                    </p>
-                </div>
-                <div class="component_box list_box">
-                    <ul class="list_style_none">
-                        <li class="list_inline">item1</li>
-                        <li class="list_inline">item3</li>
-                        <li class="list_inline">item4</li>
-                    </ul>
-                    <ul class="list_styles list_bullet_none">
-                        <li>item1</li>
-                        <li>item3</li>
-                        <li>item4</li>
-                    </ul>
-                </div>
-                <div class="component_code">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=1.25rem&dsblur=4.25rem&wc=true&wa=true&pv=3.5rem&ph=3.5rem&ln=false&fl=1&fm=Fira+Code&fs=.875rem&lh=152%25&si=false&es=2x&wm=false&code=%2509%2509%2509%253Cul%2520class%253D%2522list_style_none%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list_inline%2522%253Eitem1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list_inline%2522%253Eitem3%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list_inline%2522%253Eitem4%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522list_styles%2520list_bullet_none%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Eitem1%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Eitem3%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253Eitem4%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E"
-                        class="iframe_style" sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-                <h2 class="component_example">Example of Stacked notification list </h2>
-                <div>
-                    <p class="para">
-                        When you invoke multiple notifications from the same component reference they will be stacked on
-                        the screen. Notifications which derive from different references will be rendered on top of one
-                        another. there are some example of stacked notifiaction maintioned below to creat stacked
-                        notifiaction follow the below html snippet.
-                    </p>
-                </div>
-                <div class="component_box stacked_list_box">
-                    <ul class="list_bullet_none unorder_notification">
-                        <li class="list_notifiction stacked_list_size">Notification 1 <i
-                                class="fas fa-times-circle"></i></li>
-                        <li class="list_notifiction stacked_list_size">Notification 2 <i
-                                class="fas fa-times-circle"></i></li>
-                        <li class="list_notifiction stacked_list_size">Notifiaction 3 <i
-                                class="fas fa-times-circle"></i></li>
-                        <li class="list_notifiction stacked_list_size">Notifiaction 4 <i
-                                class="fas fa-times-circle"></i></li>
-                    </ul>
-                </div>
-                <div class="component_code">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=1.25rem&dsblur=4.25rem&wc=true&wa=true&pv=3.5rem&ph=3.5rem&ln=false&fl=1&fm=Fira+Code&fs=.875rem&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522list_bullet_none%2520unorder_notification%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list_notifiction%2520stacked_list_size%2522%253ENotification%25201%2520%253Ci%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list_notifiction%2520stacked_list_size%2522%253ENotification%25202%2520%253Ci%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list_notifiction%2520stacked_list_size%2522%253ENotifiaction%25203%2520%253Ci%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list_notifiction%2520stacked_list_size%2522%253ENotifiaction%25204%2520%253Ci%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E"
-                        class="iframe_style" sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-            </div>
-            <hr>
-            <!-- toast component -->
-            <div id="toast">
-                <h1 class="component_heading">Toast</h1>
-                <p class="para">
-                    The toast component is like an alert box that is only shown for a couple of seconds when something
-                    happens (i.e. when the user clicks on a button, submits a form, etc.).
-                </p>
-                <h2 class="component_example">Example of simple sankbar/toast</h2>
-                <div>
-                    <p class="para">
-                        some sankbar are shown below to use this component follow below html snippet.
-                    </p>
-                </div>
-                <div class="component_box toast_box">
-                    <div class="container">
-                        <div class="SnackBar">Not saved ! try again later.<i class="fas fa-times" id="btn_close"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="component_code">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=1.25rem&dsblur=4.25rem&wc=true&wa=true&pv=3.5rem&ph=3.5rem&ln=false&fl=1&fm=Fira+Code&fs=.875rem&lh=152%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%2509%253Cdiv%2520class%253D%2522container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522SnackBar%2522%253ENot%2520saved%2520%21%2520try%2520again%2520later.%253Ci%2520class%253D%2522fas%2520fa-times%2522%2520%2509%2509%2509%2509%2509%2509%2509%2509id%253D%2522btn_close%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                        class="iframe_style" sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-                <h2 class="component_example">Example of sankbar/toast with button</h2>
-                <div>
-                    <p class="para">
-                        This are the toast which used for appearing small message on pop. It have buttons also which
-                        used to remove the toast.
-                    </p>
-                </div>
-                <div class="component_box toast_box">
-                    <div class="container">
-                        <div class="snackBar">Can't send photo. Retry in 5 seconds.
-                            <button class="btn">Retry</button>
-                            <button class="btn btn_cross"><i class="fas fa-times"></i></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="component_code">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=1.25rem&dsblur=4.25rem&wc=true&wa=true&pv=3.5rem&ph=3.5rem&ln=false&fl=1&fm=Fira+Code&fs=.875rem&lh=152%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%253Cdiv%2520class%253D%2522container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackBar%2522%253ECan%27t%2520send%2520photo.%2520Retry%2520in%25205%2520seconds.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253ERetry%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn_cross%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                        class="iframe_style" sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-            </div>
-
-            <!-- typography -->
-            <div id="typography">
-                <h1 class="component_heading">Typography</h1>
-                <p class="para">
-                    Documentation and examples for <span class="text_font primary_text_color">CSS UI Galaxy</span>
-                    typography, including global settings, headings, body text, lists, and more.
-
-                </p>
-                <h2 class="component_example">Headings</h2>
-                <div>
-                    <p class="para">
-                        All HTML headings ,h1 through h6, are available.Go through the mentioned snippet.
-                    </p>
-                </div>
-                <div class="component_box heading_box">
-                    <h1 class="h1">headings h1</h1>
-                    <h2 class="h2">headings h2</h2>
-                    <h3 class="h3">headings h3</h3>
-                    <h4 class="h4">headings h4</h4>
-                    <h5 class="h5">headings h5</h5>
-                    <h6 class="h6">headings h6</h6>
-                </div>
-                <div class="component_code">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=1.25rem&dsblur=4.25rem&wc=true&wa=true&pv=3.5rem&ph=3.5rem&ln=false&fl=1&fm=Fira+Code&fs=.875rem&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522h1%2522%253Eheadings%2520h1%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522h2%2522%253Eheadings%2520h2%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522h3%2522%253Eheadings%2520h3%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522h4%2522%253Eheadings%2520h4%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522h5%2522%253Eheadings%2520h5%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522h6%2522%253Eheadings%2520h6%253C%252Fh6%253E%250A"
-                        class="iframe_style" sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-                <h1 class="component_heading">Font family</h1>
-                <div>
-                    <p class="para">
-                        <span class="primary_text_color text_font ">CSS UI Galaxy</span> uses "Playfair Display-sarif",
-                        as its default font, which is a free font available at Google Fonts.
-                    </p>
-                </div>
-                <div class="component_code">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=auto&width=1080&ds=false&dsyoff=1.25rem&dsblur=4.25rem&wc=true&wa=true&pv=3.5rem&ph=3.5rem&ln=false&fl=1&fm=Hack&fs=.875rem&lh=133%25&si=false&es=2x&wm=false&code=%2540import%2520url%28%27https%253A%252F%252Ffonts.googleapis.com%252Fcss2%253Ffamily%253DCaveat%2526family%253DCormorant%252BGaramond%253Awght%2540400%253B500%2526family%253DEB%252BGaramond%2526family%253DIndie%252BFlower%2526family%253DKalam%253Awght%2540300%2526family%253DLibre%252BBaskerville%2526family%253DMarck%252BScript%2526family%253DMontagu%252BSlab%253Awght%2540300%2526family%253DMontserrat%253Aital%252Cwght%25400%252C100%253B0%252C300%253B0%252C400%253B1%252C500%2526family%253DNoto%252BSerif%2526family%253DPhilosopher%253Awght%2540700%2526family%253DQuintessential%2526family%253DSource%252BSerif%252BPro%253Aital%252Cwght%25401%252C300%2526family%253DYuji%252BMai%2526display%253Dswap%27%29%253B"
-                        class="iframe_style" sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-            </div>
-            <hr>
-            <!-- card component -->
-            <div id="card">
-                <h1 class="component_heading">Card</h1>
-                <p class="para">
-                    Cards are used in many filed like web shopping, e-commerce this mainly used to advertise some
-                    products are else some information.
-                </p>
-                <h2 class="component_example">Example of Basic card</h2>
-                <div>
-                    <p class="para">
-                        card component features several different types of information: an image, a title, a short
-                        summary, , and a secondary call-to-action button for social media sharing, add to cart,buy
-                        option.
-                    </p>
-                </div>
-                <div class="component_box">
-                    <div class="card_container">
-                        <div>
-                            <img class="card_img" src="/stylestheet/assets/card.jpeg" alt="image">
-                        </div>
-                        <div class="titel_container">
-                            <h1 class="product_name">boAt Rockerz 255R</h1>
-                            <button class="btn_heart heart_btn"><i class="far fa-heart heart_icon"></i></button>
-                            <p class="card_discription">Bluetooth Earphone with Mic IPX5 Water & Sweat Resistance</p>
-                            <div class="card_rating">
-                                <i class="fa fa-star card_star"></i>
-                                <i class="fa fa-star card_star"></i>
-                                <i class="fa fa-star card_star"></i>
-                                <i class="fa fa-star-half-full card_star"></i>
-                                <i class="fa fa-star-o card_star"></i>
-                                <div class="price">
-                                    <strong>Rs.1000</strong>
-                                    <s>Rs.1500</s>
-                                </div>
-                            </div>
-                            <div class="btn_container">
-                                <button class="card_btn">
-                                    <i class="fa fa-shopping-cart icons_card"></i>Add to cart
-                                </button>
-                                <button class="card_btn btn_buy">
-                                    <i class="fa fa-bolt icons_card_slash"></i>Buy Now
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="component_code">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=1.25rem&dsblur=4.25rem&wc=true&wa=true&pv=3.5rem&ph=3.5rem&ln=false&fl=1&fm=Fira+Code&fs=.875rem&lh=152%25&si=false&es=2x&wm=false&code=%2509%2509%253Cdiv%2520class%253D%2522card_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Cimg%2520class%253D%2522card_imge%2522%2520src%253D%2522%252Fstylestheet%252Fassets%252Fcard.jpeg%2522%2520alt%253D%2522image%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522titel_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522product_name%2522%253EboAt%2520Rockerz%2520255R%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn_heart%2520heart_btn%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2520heart_icon%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card_discription%2522%253EBluetooth%2520Earphone%2520with%2520Mic%2520IPX5%2520Water%2520%2526%2520Sweat%2520Resistance%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card_rating%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520card_star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520card_star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520card_star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star-half-full%2520card_star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star-o%2520card_star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253ERs.1000%253C%252Fstrong%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cs%253ERs.1500%253C%252Fs%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card_btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2520icons_card%2522%253E%253C%252Fi%253EAdd%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card_btn%2520btn_buy%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-bolt%2520icons_card_slash%2522%253E%253C%252Fi%253EBuy%2520Now%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                        class="iframe_style" sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-            </div>
-            <h2 class="component_example">Example of Card with Dismiss</h2>
-            <div class="component_box">
-                <div class="card_container">
-                    <div>
-                        <button class="dismiss_icon"><i class="fa fa-remove"></i></button>
-                        <img class="card_img" src="/stylestheet/assets/card.jpeg" alt="image">
-                    </div>
-                    <div class="titel_container">
-                        <h1 class="product_name">boAt Rockerz 255R</h1>
-                        <button class="btn_heart heart_btn"><i class="far fa-heart heart_icon"></i></button>
-                        <p class="card_discription">Bluetooth Earphone with Mic IPX5 Water & Sweat Resistance</p>
-                        <div class="card_rating">
-                            <i class="fa fa-star card_star"></i>
-                            <i class="fa fa-star card_star"></i>
-                            <i class="fa fa-star card_star"></i>
-                            <i class="fa fa-star-half-full card_star"></i>
-                            <i class="fa fa-star-o card_star"></i>
-                            <div class="price">
-                                <strong>Rs.1000</strong>
-                                <s>Rs.1500</s>
-                            </div>
-                        </div>
-                        <div class="btn_container">
-                            <button class="card_btn">
-                                <i class="fa fa-shopping-cart icons_card"></i>Add to cart
-                            </button>
-                            <button class="card_btn btn_buy">
-                                <i class="fa fa-bolt icons_card_slash"></i>Buy Now
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="component_code">
-                <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=1.25rem&dsblur=4.25rem&wc=true&wa=true&pv=3.5rem&ph=3.5rem&ln=false&fl=1&fm=Fira+Code&fs=.875rem&lh=152%25&si=false&es=2x&wm=false&code=%2509%2509%253Cdiv%2520class%253D%2522card_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Cimg%2520class%253D%2522card_imge%2522%2520src%253D%2522%252Fstylestheet%252Fassets%252Fcard.jpeg%2522%2520alt%253D%2522image%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522titel_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522product_name%2522%253EboAt%2520Rockerz%2520255R%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn_heart%2520heart_btn%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2520heart_icon%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card_discription%2522%253EBluetooth%2520Earphone%2520with%2520Mic%2520IPX5%2520Water%2520%2526%2520Sweat%2520Resistance%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card_rating%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520card_star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520card_star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520card_star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star-half-full%2520card_star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star-o%2520card_star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253ERs.1000%253C%252Fstrong%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cs%253ERs.1500%253C%252Fs%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card_btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2520icons_card%2522%253E%253C%252Fi%253EAdd%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card_btn%2520btn_buy%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-bolt%2520icons_card_slash%2522%253E%253C%252Fi%253EBuy%2520Now%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                    class="iframe_style" sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
-            <h2 class="component_example">Example of Card with Badge</h2>
-            <div class="component_box">
-                <div class="card_container">
-                    <div>
-                        <div class="badge_container">
-                            <button class="new_btn badge_size">New</button>
-                        </div>
-                        <img class="card_img" src="/stylestheet/assets/card.jpeg" alt="image">
-                    </div>
-                    <div class="titel_container">
-                        <h1 class="product_name">boAt Rockerz 255R</h1>
-                        <button class="btn_heart heart_btn"><i class="far fa-heart heart_icon"></i></button>
-                        <p class="card_discription">Bluetooth Earphone with Mic IPX5 Water & Sweat Resistance</p>
-                        <div class="card_rating">
-                            <i class="fa fa-star card_star"></i>
-                            <i class="fa fa-star card_star"></i>
-                            <i class="fa fa-star card_star"></i>
-                            <i class="fa fa-star-half-full card_star"></i>
-                            <i class="fa fa-star-o card_star"></i>
-                            <div class="price">
-                                <strong>Rs.1000</strong>
-                                <s>Rs.1500</s>
-                            </div>
-                        </div>
-                        <div class="btn_container">
-                            <button class="card_btn">
-                                <i class="fa fa-shopping-cart icons_card"></i>Add to cart
-                            </button>
-                            <button class="card_btn btn_buy">
-                                <i class="fa fa-bolt icons_card_slash"></i>Buy Now
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="component_code">
-                <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=1.25rem&dsblur=4.25rem&wc=true&wa=true&pv=3.5rem&ph=3.5rem&ln=false&fl=1&fm=Fira+Code&fs=.875rem&lh=152%25&si=false&es=2x&wm=false&code=%2509%2509%253Cdiv%2520class%253D%2522card_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522new_btn%2520badge_size%2522%253ENew%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card_imge%2522%2520src%253D%2522%252Fstylestheet%252Fassets%252Fcard.jpeg%2522%2520alt%253D%2522image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522titel_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522product_name%2522%253EboAt%2520Rockerz%2520255R%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn_heart%2520heart_btn%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2520heart_icon%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card_discription%2522%253EBluetooth%2520Earphone%2520with%2520Mic%2520IPX5%2520Water%2520%2526%2520Sweat%2520Resistance%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card_rating%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520card_star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520card_star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520card_star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star-half-full%2520card_star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star-o%2520card_star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253ERs.1000%253C%252Fstrong%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cs%253ERs.1500%253C%252Fs%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card_btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2520icons_card%2522%253E%253C%252Fi%253EAdd%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card_btn%2520btn_buy%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-bolt%2520icons_card_slash%2522%253E%253C%252Fi%253EBuy%2520Now%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                    class="iframe_style" sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
-            <h2 class="component_example">Example of Card with Text Overlay</h2>
-            <div class="component_box">
-                <div class="card_container">
-                    <div class="card_opacity">
-                        <span class="text_overlay"> Out of Stock </span>
-                        <div class="badge_container">
-                            <button class="new_btn badge_size">New</button>
-                        </div>
-                        <img class="card_img" src="/stylestheet/assets/card.jpeg" alt="image">
-                    </div>
-                    <div class="titel_container card_opacity">
-                        <h1 class="product_name">boAt Rockerz 255R</h1>
-                        <button class="btn_heart heart_btn"><i class="far fa-heart heart_icon"></i></button>
-                        <p class="card_discription">Bluetooth Earphone with Mic IPX5 Water & Sweat Resistance</p>
-                        <div class="card_rating">
-                            <i class="fa fa-star card_star"></i>
-                            <i class="fa fa-star card_star"></i>
-                            <i class="fa fa-star card_star"></i>
-                            <i class="fa fa-star-half-full card_star"></i>
-                            <i class="fa fa-star-o card_star"></i>
-                            <div class="price">
-                                <strong>Rs.1000</strong>
-                                <s>Rs.1500</s>
-                            </div>
-                        </div>
-                        <div class="btn_container">
-                            <button class="card_btn">
-                                <i class="fa fa-shopping-cart icons_card"></i>Add to cart
-                            </button>
-                            <button class="card_btn btn_buy">
-                                <i class="fa fa-bolt icons_card_slash"></i>Buy Now
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="component_code">
-                <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=1.25rem&dsblur=4.25rem&wc=true&wa=true&pv=3.5rem&ph=3.5rem&ln=false&fl=1&fm=Fira+Code&fs=.875rem&lh=152%25&si=false&es=2x&wm=false&code=%2509%2509%253Cdiv%2520class%253D%2522card_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card_opacity%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522text_overlay%2522%253E%2520Out%2520of%2520Stock%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522new_btn%2520badge_size%2522%253ENew%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card_imge%2522%2520src%253D%2522%252Fstylestheet%252Fassets%252Fcard.jpeg%2522%2520alt%253D%2522image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522titel_container%2520card_opacity%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522product_name%2522%253EboAt%2520Rockerz%2520255R%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn_heart%2520heart_btn%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2520heart_icon%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2509%2509%253Cp%2520class%253D%2522card_discription%2522%253EBluetooth%2520Earphone%2520with%2520Mic%2520IPX5%2520Water%2520%2526%2520Sweat%2520Resistance%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card_rating%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520card_star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520card_star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520card_star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star-half-full%2520card_star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star-o%2520card_star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253ERs.1000%253C%252Fstrong%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cs%253ERs.1500%253C%252Fs%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card_btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2520icons_card%2522%253E%253C%252Fi%253EAdd%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card_btn%2520btn_buy%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-bolt%2520icons_card_slash%2522%253E%253C%252Fi%253EBuy%2520Now%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                    class="iframe_style" sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
-            <h2 class="component_example">Example of Card with Horizontal</h2>
-            <div class="component_box">
-                <div class="card_horizontal">
-                    <img class="card_img image_width" src="/stylestheet/assets/card.jpeg" alt="image">
-                    <div class="titel_container">
-                        <h1 class="product_name">boAt Rockerz 255R</h1>
-                        <p class="card_discription">Bluetooth Earphone with Mic IPX5 Water & Sweat Resistance</p>
-                        <div class="card_rating">
-                            <i class="fa fa-star card_star"></i>
-                            <i class="fa fa-star card_star"></i>
-                            <i class="fa fa-star card_star"></i>
-                            <i class="fa fa-star-half-full card_star"></i>
-                            <i class="fa fa-star-o card_star"></i>
-                            <div class="price">
-                                <strong>Rs.1000</strong>
-                                <s>Rs.1500</s>
-                            </div>
-                        </div>
-                        <div class="btn_container">
-                            <button class="card_btn">
-                                <i class="fa fa-shopping-cart icons_card"></i>Add to cart
-                            </button>
-                            <button class="card_btn btn_buy">
-                                <i class="fa fa-bolt icons_card_slash"></i>Buy Now
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="component_code">
-                <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=1.25rem&dsblur=4.25rem&wc=true&wa=true&pv=3.5rem&ph=3.5rem&ln=false&fl=1&fm=Fira+Code&fs=.875rem&lh=152%25&si=false&es=2x&wm=false&code=%2509%2509%2509%253Cdiv%2520class%253D%2522card_horizental%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card_imge%2520image_width%2522%2520src%253D%2522%252Fstylestheet%252Fassets%252Fcard.jpeg%2522%2520alt%253D%2522image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522titel_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522product_name%2522%253EboAt%2520Rockerz%2520255R%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card_discription%2522%253EBluetooth%2520Earphone%2520with%2520Mic%2520IPX5%2520Water%2520%2526%2520Sweat%2520Resistance%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card_rating%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520card_star%2522%253E%253C%252Fi%2509%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520card_star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520card_star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star-half-full%2520card_star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star-o%2520card_star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrong%253ERs.1000%253C%252Fstrong%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cs%253ERs.1500%253C%252Fs%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card_btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2520icons_card%2522%253E%253C%252Fi%253EAdd%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card_btn%2520btn_buy%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-bolt%2520icons_card_slash%2522%253E%253C%252Fi%253EBuy%2520Now%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                    class="iframe_style" sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
-            <hr>
-            <!-- nav_bar -->
-            <div id="navigation">
-                <h1 class="component_heading">Navigation</h1>
-                <p class="para">
-                    A navigation bar is a user interface element within a webpage that contains links to other sections
-                    of the website.
-                </p>
-                <h2 class="component_example">Navigation Bar</h2>
-                <div class="component_box">
-                    <nav class="nav_bar">
-                        <div>
-                            <a href="/">
-                                <h1 class="website_name">website</h1>
-                            </a>
-                        </div>
-                        <div class="search">
-                            <button>
-                                <i class="fa fa-search"></i>
-                            </button>
-                            <input type="text" placeholder=" Search Your Desier" name="search">
-                        </div>
-                        <div class="contact_info">
-                            <ul class="nav_list">
-                                <li><a href="/"><i class="icon_nav fa fa-heart-o"></i></a></li>
-                                <li><a href="/"><i class="icon_nav fas fa-shopping-cart"></i></a>
-                                </li>
-                                <li><a href="/"><i class="icon_nav fas fa-user"></i></a></li>
-                                <li><a class="login_btn" href="/">Login</a></li>
-
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-                <div class="component_code">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=1.25rem&dsblur=4.25rem&wc=true&wa=true&pv=3.5rem&ph=3.5rem&ln=false&fl=1&fm=Fira+Code&fs=.875rem&lh=152%25&si=false&es=2x&wm=false&code=%2520%2509%2509%2509%2509%253Cnav%2520class%253D%2522nav_bar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%252F%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522website_name%2522%253Ewebsite%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522search%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-search%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520placeholder%253D%2522%2520Search%2520Your%2520Desier%2522%2520name%253D%2522search%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522contact_info%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522nav_list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ca%2520href%253D%2522%252F%2522%253E%253Ci%2520class%253D%2522icon_nav%2520fas%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ca%2520href%253D%2522%252F%2522%253E%253Ci%2520class%253D%2522icon_nav%2520fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ca%2520href%253D%2522%252F%2522%253E%253Ci%2520class%253D%2522icon_nav%2520fas%2520fa-user%2522%253E%253C%252Fi%253E%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ca%2520class%253D%2522login_btn%2522%2520href%253D%2522%252F%2522%253ELogin%253C%252Fa%253E%253C%252Fli%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fnav%253E"
-                        class="iframe_style" sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-            </div>
-            <hr />
-            <div id="slider">
-                <h1 class="component_heading">Slider</h1>
-                <p class="para">
-                    A range slider is an input field that merchants can use to select a
-                    numeric value within a given range (minimum and maximum values).
-                </p>
-                <h2 class="component_example">Range slider (volume button)</h2>
-                <div class="component_box">
-                    <div class="slide_fontsize dis_flex gap_s">
-                        <i class="fas fa-solid fa-volume-xmark icon_range"></i>
-                        <input type="range" name="value" max="10" class="range_slide" />
-                        <i class="fa-solid fa-volume-high icon_range"></i>
-                    </div>
-                </div>
-                <div class="component_code">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=1.25rem&dsblur=4.25rem&wc=true&wa=true&pv=3.5rem&ph=3.5rem&ln=false&fl=1&fm=Fira+Code&fs=.875rem&lh=152%25&si=false&es=2x&wm=false&code=%2509%2509%2509%253Cdiv%2520class%253D%2522dis_flex%2520gap_s%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-solid%2520fa-volume-xmark%2520icon_range%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522range%2522%2520name%253D%2522value%2522%2520max%253D%252210%2522%2520class%253D%2522range_slide%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-volume-high%2520icon_range%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                        style="width: 64.5625rem; height: 17.3125rem; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-                <h2 class="component_example">Range slider(disable)</h2>
-                <div class="component_box">
-                    <div>
-                        <input type="range" name="value" max="10" disabled="true" class="range_slide" />
-                    </div>
-                </div>
-                <div class="component_code">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=1.25rem&dsblur=4.25rem&wc=true&wa=true&pv=3.5rem&ph=3.5rem&ln=false&fl=1&fm=Fira+Code&fs=.875rem&lh=152%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%2509%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522range%2522%2520name%253D%2522value%2522%2520max%253D%252210%2522%2520disabled%253D%2522true%2522%2520class%253D%2522range_slide%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                        style="width: 93.75rem; height: 14.6875rem; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-            </div>
-            <hr />
-            <div id="modal">
-                <h1 class="component_heading">Modal</h1>
-                <p class="para">
-                    Modals are dailogue box which are used to show pop up notification or advertising products or it is
-                    also used to popup the list of items.
-                </p>
-                <h2 class="component_example">Sample Modals</h2>
-                <div class="component_box">
-                    <div class="modal_container">
-                        <div class="title_container dis_flex">
-                            <h1>Model titel</h1>
-                            <button class="cross_btn"><i class="fa-solid fa-xmark"></i></button>
-                        </div>
-                        <p>Model body text goes here</p>
-                        <div class="modal_btn_conatiner dis_flex">
-                            <button class="modal_btn close_btn">Close</button>
-                            <button class="modal_btn">Save change</button>
-                        </div>
-
-                        <hr />
-                    </div>
-                </div>
-                <div class="component_code">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=1.25rem&dsblur=4.25rem&wc=true&wa=true&pv=3.5rem&ph=3.5rem&ln=false&fl=1&fm=Fira+Code&fs=.875rem&lh=152%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2509%253Cdiv%2520class%253D%2522modal_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522title_container%2520dis_flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253EModel%2520titel%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522cross_btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa-solid%2520fa-xmark%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EModel%2520body%2520text%2520goes%2520here%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal_btn_conatiner%2520dis_flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522modal_btn%2520close_btn%2522%253EClose%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522modal_btn%2522%253ESave%2520change%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                        style="width: 62.5rem; height: 25rem; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-            </div>
-            <hr />
-            <div id="grid">
-                <h1 class="component_heading">Simplified Grid
-                </h1>
-                <p class="para">
-                    A Grid is two dimensional layout sytem for web A grid based layout system withrows and columns.A
-                    layout just like MS excel offers an easy and convenint layout.
-                </p>
-                <h2 class="component_example">Grid Columns</h2>
-                <div class="component_box">
-                    <p class="title_grid"> Two Items in grid : </p>
-                    <!-- two item grid -->
-                    <div class="two_item_cl_grid">
-                        <div class="grid_item">Item1</div>
-                        <div class="grid_item">Item2</div>
-                    </div>
-                    <p class="title_grid"> Three Items in grid : </p>
-                    <!-- three item grid -->
-                    <div class="three_item_cl_grid">
-                        <div class="grid_item">Item1</div>
-                        <div class="grid_item">Item2</div>
-                        <div class="grid_item">Item2</div>
-
-                    </div>
-                </div>
-                <div class="component_code">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253C%21--%2520two%2520item%2520grid%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522two_item_cl_grid%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid_item%2522%253EItem1%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid_item%2522%253EItem2%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2509%2509%2509%2509%2520%253C%21--%2520three%2520item%2520grid%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520div%2520class%253D%2522three_item_cl_grid%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid_item%2522%253EItem1%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid_item%2522%253EItem2%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid_item%2522%253EItem2%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                        style="width: 549px; height: 405px; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-                <h2 class="component_example">Grid Row</h2>
-                <div class="component_box">
-                    <p class="title_grid"> Two Items in grid : </p>
-                    <!-- two item grid -->
-                    <div class="two_item_row_grid">
-                        <div class="grid_item">Item1</div>
-                        <div class="grid_item">Item2</div>
-                    </div>
-                    <p class="title_grid"> Three Items in grid : </p>
-                    <!-- three item grid -->
-                    <div class="three_item_row_grid">
-                        <div class="grid_item">Item1</div>
-                        <div class="grid_item">Item2</div>
-                        <div class="grid_item">Item2</div>
-
-                    </div>
-                </div>
-                <div class="component_code">
-                    <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253C%21--%2520two%2520item%2520grid%2520--%253E%250A%2520%2520%253Cdiv%2520class%253D%2522two_item_row_grid%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid_item%2522%253EItem1%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid_item%2522%253EItem2%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2509%2509%2509%2509%2520%253C%21--%2520three%2520item%2520grid%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520div%2520class%253D%2522three_item_row_grid%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid_item%2522%253EItem1%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid_item%2522%253EItem2%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid_item%2522%253EItem2%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                        style="width: 549px; height: 405px; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-            </div>
-
-
-        </div>
+  <nav class="navigation">
+    <div class="name">
+      <a class="ui_link" href="/getstarted/main.html">
+        <h1 class="ui_name">CSS UI Galaxy</h1>
+      </a>
+      <h5 class="ui_taglimainne">Get Your Own Design</h5>
     </div>
+    <ul class="list">
+      <li class="list_inline">
+        <a class="links" href="/getstarted/main.html">Home</a>
+      </li>
+      <li class="list_inline">
+        <a class="links" href="index.html">Documentation</a>
+      </li>
+
+      </li>
+    </ul>
+  </nav>
+  <div class="main_div">
+    <div class="left_div">
+      <div class="box1">
+        <p class="content">Getting Started</p>
+        <p>
+          <a class="intall_tab" href="getstarted/install.html">
+            Installation</a>
+        </p>
+        <p class="content">Components</p>
+        <hr />
+      </div>
+      <div id="component_div">
+        <div class="item">
+          <a class="components" href="#avatar">Avatar</a>
+        </div>
+        <div class="item">
+          <a class="components" href="#alerts">Alerts</a>
+        </div>
+        <div class="item">
+          <a class="components" href="#badge">Badge</a>
+        </div>
+        <div class="item">
+          <a class="components" href="#button">Button</a>
+        </div>
+        <div class="item">
+          <a class="components" href="#card">Card</a>
+        </div>
+        <div class="item">
+          <a class="components" href="#image">Image</a>
+        </div>
+        <div class="item">
+          <a class="components" href="#input">Input</a>
+        </div>
+        <div class="item">
+          <a class="components" href="#list">List</a>
+        </div>
+        <div class="item">
+          <a class="components" href="#modal">Modal</a>
+        </div>
+        <div class="item">
+          <a class="components" href="#navigation">Navigation</a>
+        </div>
+        <div class="item">
+          <a class="components" href="#rating">Rating</a>
+        </div>
+        <div class="item">
+          <a class="components" href="#slider">Slider</a>
+        </div>
+        <div class="item">
+          <a class="components" href="#grid">Simplified Grid </a>
+        </div>
+        <div class="item">
+          <a class="components" href="#toast">Toast</a>
+        </div>
+        <div class="item">
+          <a class="components" href="#typography">Typography</a>
+        </div>
+      </div>
+    </div>
+    <div class="right_div">
+      <!-- Avatar component  -->
+      <div id="avatar">
+        <h1 class="component_heading">Avatar</h1>
+        <p class="para">
+          Avatar is an profile picture.used for represent the user Identity
+          and dispalys the profile picture.This Avatar component will help you
+          to build differnet size of Avatars as shown in below.
+        </p>
+
+        <h2 class="component_example">Example of Image Avatars</h2>
+        <div>
+          <p class="para">
+            Avatar are in differnet sizes to use these avatar.you have to add
+            class
+            <span class="primary_text_color">avatar</span> for size add class
+            according to size like
+            <span class="primary_text_color">avatar_lg_size, avatar_medium_size, avatar_small_size,
+              avatar_xs_size</span>
+            for (e.g.
+            <span class="primary_text_color">class= avatar_border avatar-lg-size</span>)<br />
+          </p>
+        </div>
+        <div class="component_box">
+          <div class="avatar_image">
+            <img src="/stylestheet/assets/avatar.jpg" class="avatar_border avatar_lg_size" alt="avatar" />
+            <img src="/stylestheet/assets/avatar.jpg" class="avatar_border avatar_medium_size" alt="avatar" />
+            <img src="/stylestheet/assets/avatar.jpg" class="avatar_border avatar_small_size" alt="avatar" />
+            <img src="/stylestheet/assets/avatar.jpg" class="avatar_border avatar_xs_size" alt="avatar" />
+          </div>
+        </div>
+        <div class="component_code">
+          <pre><code class="language-html">
+                    &lt!-- Large size avatar -->
+                &ltimg
+                src="/stylestheet/assets/avatar.jpg"
+                class="avatar_border avatar_lg_size"
+                alt="avatar"
+              />
+              &lt!-- For medium size avatar -->
+              &ltimg
+                src="/stylestheet/assets/avatar.jpg"
+                class="avatar_border avatar_medium_size"
+                alt="avatar"
+              />
+              &lt!-- For Small size avatar -->
+              &ltimg
+                src="/stylestheet/assets/avatar.jpg"
+                class="avatar_border avatar_small_size"
+                alt="avatar"
+              />
+              &lt!-- For xs_size avatar -->
+              &ltimg
+                src="/stylestheet/assets/avatar.jpg"
+                class="avatar_border avatar_xs_size"
+                alt="avatar"
+              />
+            </code></pre>
+        </div>
+        <h2 class="component_example">Example of Text Avatars</h2>
+        <div class="component_box">
+          <div class="avatar_image">
+            <div class="avatar_border avatar_lg_size avatar_text">AB</div>
+            <div class="avatar_border avatar_medium_size avatar_text">AB</div>
+            <div class="avatar_border avatar_small_size avatar_text">AB</div>
+            <div class="avatar_border avatar_xs_size avatar_text">AB</div>
+          </div>
+        </div>
+        <div class="component_code">
+          <pre><code class="language-html">
+                        &ltdiv class="avatar_border avatar_lg_size avatar_text">AB&lt/div>
+                        &ltdiv class="avatar_border avatar_medium_size avatar_text">AB&lt/div>
+                        &ltdiv class="avatar_border avatar_small_size avatar_text">AB&lt/div>
+                        &ltdiv class="avatar_border avatar_xs_size avatar_text">AB&lt/div>
+                    </code>
+                    </pre>
+        </div>
+      </div>
+      <hr />
+      <!-- Alerts component -->
+      <div id="alerts">
+        <h1 class="component_heading">Alerts</h1>
+        <p class="para">
+          Alerts are urgent interruptions.Alerts are used to disply a short
+          important message in a way that attarcts the user's attention.Alerts
+          are used to inform the user about a situation.
+        </p>
+        <h2 class="component_example">Example of Alerts</h2>
+        <div>
+          <p class="para">
+            This component available for us, and it is very easy to integrate.
+            Alerts are in differnet types like-warning alert, primary
+            alert,secondary alert,danger alert,success alert. To use these
+            Alerts.You have to add class
+            <span class="primary_text_color">alert_container</span> for
+            differnet types add class accordingly like
+            <span class="primary_text_color">alert_primary, alert_secondary,
+              alert_danger,alert_warning,alert_success.</span>
+            for (e.g.
+            <span class="primary_text_color">class= alert_container alert_success</span>)<br />
+          </p>
+        </div>
+        <div class="component_box alert_box">
+          <div class="alert_container">
+            Primary Alert message with Text link
+            <a href="#alerts" class="alert_primary">Download !</a>
+          </div>
+          <div class="alert_container alert_secondary">
+            Secondary Alert message !
+          </div>
+          <div class="alert_container alert_success">
+            <i class="far fa-check-circle"> Success Alert message !</i>
+          </div>
+          <div class="alert_container alert_danger">
+            <i class="fas fa-solid fa-triangle-exclamation"></i>
+            Danger Alert message !</i>
+          </div>
+          <div class="alert_container alert_warning">
+            <i class="fas fa-solid fa-triangle-exclamation"></i>
+            Warning Alert message !</i>
+          </div>
+        </div>
+        <div class="component_code">
+          <pre><code class="language-html">
+                        &lt!-- Primary alert -->
+                        &ltdiv class="alert_container">
+                            Primary Alert message with Text link
+                            &lta href="#alerts" class="alert_primary">Download !&lt/a>
+                        &lt/div>
+
+                        &lt!-- secondary alert  -->
+                        &ltdiv class="alert_container alert_secondary">
+                            Secondary Alert message !
+                        &lt/div>
+
+                        &lt!-- success alert -->
+                        &ltdiv class="alert_container alert_success">
+                            &lti class="far fa-check-circle"> Success Alert message !&lt/i>
+                        &lt/div>
+
+                        &lt!-- danger alert -->
+                        &ltdiv class="alert_container alert_danger">
+                            &lti class="fas fa-exclamation-triangle"> Danger Alert message !&lt/i>
+                        &lt/div>
+
+                        &lt!-- warning alert -->
+                        &ltdiv class="alert_container alert_warning">
+                            &lti class="fas fa-exclamation-triangle">
+                                Warning Alert message !&lt/i>
+                        &lt/div>
+                </code>
+            </pre>
+        </div>
+      </div>
+      <hr />
+      <!-- Badge component -->
+      <div id="badge">
+        <h1 class="component_heading">Badges</h1>
+        <p class="para">
+          A badge indicates a status information from the system. It is used
+          to highlight a numerical characteristic or mark an item.
+        </p>
+        <h2 class="component_example">Example of differnet Badges</h2>
+        <div>
+          <p class="para">
+            This component available for us, and it is very easy to
+            integrate.Badges are in differnet types- like on avatar showing
+            person online status and badge on icons like cart ,message box
+            that show the notifiaction counts.
+          </p>
+        </div>
+        <div class="component_box">
+          <div class="avatar_image">
+            <div class="badge_container">
+              <span class="badge"></span>
+              <img src="/stylestheet/assets/avatar.jpg" class="avatar_border avatar_lg_size" alt="avatar" />
+            </div>
+            <div class="badge_container">
+              <span class="badge badge_md_size badge_md"></span>
+              <img src="/stylestheet/assets/avatar.jpg" class="avatar_border avatar_medium_size" alt="avatar" />
+            </div>
+            <div class="badge_container">
+              <span class="badge badge_small_size badge_small"></span>
+              <div class="avatar_border avatar_small_size avatar_text">
+                AB
+              </div>
+            </div>
+            <div class="badge_container">
+              <span class="badge badge_small_size badge_xs"></span>
+              <div class="avatar_border avatar_xs_size avatar_text">AB</div>
+            </div>
+          </div>
+        </div>
+        <div class="component_code">
+          <pre><code class="language-html">
+                        &lt!-- large size avatar -->
+                            &ltdiv class="badge_container">
+                                &ltspan class="badge">&lt/span>
+                                &ltimg src="/stylestheet/assets/avatar.jpg" class="avatar_border avatar_lg_size"
+                                    alt="avatar" />
+                            &lt/div>
+
+                            &lt!-- midum size avatar -->
+                            &ltdiv class="badge_container">
+                                &ltspan class="badge badge_md_size badge_md">&lt/span>
+                                &ltimg src="/stylestheet/assets/avatar.jpg" class="avatar_border avatar_medium_size"
+                                    alt="avatar" />
+                            &lt/div>
+
+                            &lt!-- small size avatar -->
+                            &ltdiv class="badge_container">
+                                &ltspan class="badge badge_small_size badge_small">&lt/span>
+                                &ltdiv class="avatar_border avatar_small_size avatar_text">
+                                    AB
+                                &lt/div>
+                            &lt/div>
+
+                            &lt!-- xs size avatar -->
+                            &ltdiv class="badge_container">
+                                &ltspan class="badge badge_small_size badge_xs">&lt/span>
+                                &ltdiv class="avatar_border avatar_xs_size avatar_text">AB&lt/div>
+                            &lt/div>
+                    </code></pre>
+        </div>
+        <h2 class="component_example">Example of differnet icon Badges</h2>
+        <div>
+          <p class="para">
+            These are icon badges basically used in message box . that show
+            the notifiaction counts.You can creat your badges with copying
+            below Html snippet.
+          </p>
+        </div>
+        <div class="component_box icon_box">
+          <div class="avatar_image">
+            <div class="badge_container">
+              <span class="badge badge_md_size badge_icon">3</span>
+              <i class="fas fa-shopping-cart shopping_icon"></i>
+            </div>
+            <div class="badge_container">
+              <span class="badge badge_md_size badge_icon">3</span>
+              <i class="fas fa-home home"></i>
+            </div>
+            <div class="badge_container">
+              <span class="badge badge_small_size badge_btn"></span>
+              <button class="btn_badge">Badge</button>
+            </div>
+            <div class="badge_container">
+              <button class="new_btn">New</button>
+            </div>
+          </div>
+        </div>
+        <div class="component_code">
+          <pre><code class="language-html">
+                        &lt!-- Badge on shopping icon -->
+                        &ltdiv class="badge_container">
+                            &ltspan class="badge badge_md_size badge_icon">3&lt/span>
+                            &lti class="fas fa-shopping-cart shopping_icon">&lt/i>
+                        &lt/div>
+
+                        &lt!-- Badge on home icon -->
+                        &ltdiv class="badge_container">
+                            &ltspan class="badge badge_md_size badge_icon">3&lt/span>
+                            &lti class="fas fa-home home">&lt/i>
+                        &lt/div>
+
+                        &lt!-- normal button badge -->
+                        &ltdiv class="badge_container">
+                            &ltspan class="badge badge_small_size badge_btn">&lt/span>
+                            &ltbutton class="btn_badge">Badge&lt/button>
+                        &lt/div>
+
+                        &lt!--Badge of new -->
+                        &ltdiv class="badge_container">
+                            &ltbutton class="new_btn">New&lt/button>
+                        &lt/div>
+                    </code>
+                   </pre>
+        </div>
+      </div>
+      <hr />
+      <!-- button componet -->
+      <div id="button">
+        <h1 class="component_heading">Button</h1>
+        <p class="para">
+          Button are also called as Call to action.To creat a button we can
+          use button element or achor tag.Buttons allow users to take actions,
+          and make choices, with a single tap. In button component there are
+          some varients in style of buttons like-primary button ,secondary
+          button ,folating buttons,outline button.You can use this component
+          by copying below mentioned html snippet.
+        </p>
+        <h2 class="component_example">Example of Primary Buttons</h2>
+        <div>
+          <p class="para">
+            Primary buttons (with icons) can be used to indicate the most
+            important call to action in your user interface.
+          </p>
+        </div>
+        <div class="component_box button_box">
+          <div class="btn_container">
+            <a class="btn_primary">Primary-Solid</a>
+            <a class="btn_primary primary-outline">Primary-outline</a>
+            <a class="btn_primary">
+              <i class="fas fa-shopping-cart cart_icon"></i> Add to Cart</a>
+            <a class="primary_text">Primary-Text</a>
+          </div>
+        </div>
+        <div class="component_code">
+          <pre><code class="language-html">
+
+                        &lt!-- Primary button -->
+                        &lta class="btn_primary">Primary-Solid&lt/a>
+
+                        &lt!-- primary outline button -->
+                        &lta class="btn_primary primary-outline">Primary-outline&lt/a>
+
+                        &lt!-- Add to cart button -->
+                        &lta class="btn_primary">
+                            &lti class="fas fa-shopping-cart cart_icon">&lt/i> Add to Cart&lt/a>
+
+                            &lt!-- primary text button -->
+                        &lta class="primary_text">Primary-Text&lt/a>
+
+                    </code></pre>
+        </div>
+        <h2 class="component_example">Example of Secondary Button</h2>
+        <div>
+          <p class="para">
+            Secondary buttons are used for offering non-primary actions to
+            users.Secondary actions are any actions that are less important.
+          </p>
+        </div>
+        <div class="component_box button_box">
+          <div class="btn_container">
+            <a href="#" class="secondary_btn solid_secondary">Solid</a>
+            <a href="#" class="secondary_btn outline">Outline</a>
+            <a href="#" class="delete"><i class="fas fa-trash-alt trash"></i></a>
+            <a href="#" class="link">Text-Link</a>
+          </div>
+        </div>
+        <div class="component_code">
+          <pre><code class="language-html">
+                &lt!-- secondary buttons -->
+                &lta href="#" class="secondary_btn solid_secondary">Solid&lt/a>
+                &lta href="#" class="secondary_btn outline">Outline&lt/a>
+                &lta href="#" class="delete"
+                  >&lti class="fas fa-trash-alt trash">&lt/i
+                >&lt/a>
+                &lta href="#" class="link">Text-Link</a>
+            </code></pre>
+        </div>
+        <h2 class="component_example">Example of Floating action Button</h2>
+        <div>
+          <p class="para">
+            A floating action button performs the primary, or most common,
+            action on a screen. It appears in front of all screen content,
+            typically as a circular shape with an icon in its center. You can
+            create this by using below mentioned class and html tags.
+          </p>
+        </div>
+        <div class="component_box button_box">
+          <div class="btn_container">
+            <a href="" class="floating_btn"><i class="fas fa-plus-circle icon_btn"></i></a>
+            <a href="" class="floating_btn"><i class="fas fa-chevron-circle-right icon_btn"></i></a>
+            <a href="" class="floating_btn"><i class="fas fa-chevron-circle-down icon_btn"></i></a>
+          </div>
+        </div>
+        <div class="component_code">
+          <pre><code class="language-html">
+                &lt!-- floating action button circle plus button -->
+                &lta href="" class="floating_btn"
+                >&lti class="fas fa-plus-circle icon_btn">&lt/i
+              >&lt/a>
+
+              &lt!-- chevron circle right -->
+              &lta href="" class="floating_btn"
+                >&lti class="fas fa-chevron-circle-right icon_btn">&lt/i
+              >&lt/a>
+
+              &lt!-- chrvron circle down -->
+              &lta href="" class="floating_btn"
+                >&lti class="fas fa-chevron-circle-down icon_btn">&lt/i
+              >&lt/a>
+            </code></pre>
+        </div>
+      </div>
+      <hr />
+      <!-- card component -->
+      <div id="card">
+        <h1 class="component_heading">Card</h1>
+        <p class="para">
+          Cards are used in many filed like web shopping, e-commerce this
+          mainly used to advertise some products are else some information.
+        </p>
+        <h2 class="component_example">Example of Basic card</h2>
+        <div>
+          <p class="para">
+            card component features several different types of information: an
+            image, a title, a short summary, , and a secondary call-to-action
+            button for social media sharing, add to cart,buy option.
+          </p>
+        </div>
+        <div class="component_box">
+          <div class="card_container">
+            <div>
+              <img class="card_img" src="/stylestheet/assets/card.jpeg" alt="image" />
+            </div>
+            <div class="titel_container">
+              <h1 class="product_name">boAt Rockerz 255R</h1>
+              <button class="btn_heart heart_btn">
+                <i class="far fa-heart heart_icon"></i>
+              </button>
+              <p class="card_discription">
+                Bluetooth Earphone with Mic IPX5 Water & Sweat Resistance
+              </p>
+              <div class="card_rating">
+                <i class="fa fa-star card_star"></i>
+                <i class="fa fa-star card_star"></i>
+                <i class="fa fa-star card_star"></i>
+                <i class="fa fa-star-half-full card_star"></i>
+                <i class="fa fa-star-o card_star"></i>
+                <div class="price">
+                  <strong>Rs.1000</strong>
+                  <s>Rs.1500</s>
+                </div>
+              </div>
+              <div class="btn_container">
+                <button class="card_btn">
+                  <i class="fa fa-shopping-cart icons_card"></i>Add to cart
+                </button>
+                <button class="card_btn btn_buy">
+                  <i class="fa fa-bolt icons_card_slash"></i>Buy Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="component_code">
+          <pre><code class="language-html">
+                &ltdiv class="card_container">
+                    &ltdiv>
+                      &ltimg
+                        class="card_img"
+                        src="/stylestheet/assets/card.jpeg"
+                        alt="image"
+                      />
+                    &lt/div>
+                    &ltdiv class="titel_container">
+                      &lth1 class="product_name">boAt Rockerz 255R&lt/h1>
+                      &ltbutton class="btn_heart heart_btn">
+                        &lti class="far fa-heart heart_icon">&lt/i>
+                      &lt/button>
+                      &ltp class="card_discription">
+                        Bluetooth Earphone with Mic IPX5 Water & Sweat Resistance
+                      &lt/p>
+                      &ltdiv class="card_rating">
+                        &lti class="fa fa-star card_star">&lt/i>
+                        &lti class="fa fa-star card_star">&lt/i>
+                        &lti class="fa fa-star card_star">&lt/i>
+                        &lti class="fa fa-star-half-full card_star">&lt/i>
+                        &lti class="fa fa-star-o card_star">&lt/i>
+                        &ltdiv class="price">
+                          &ltstrong>Rs.1000&lt/strong>
+                          &lts>Rs.1500&lt/s>
+                        &lt/div>
+                      &lt/div>
+                      &ltdiv class="btn_container">
+                        &ltbutton class="card_btn">
+                          &lti class="fa fa-shopping-cart icons_card">&lt/i>Add to cart
+                        &lt/button>
+                        &ltbutton class="card_btn btn_buy">
+                          &lti class="fa fa-bolt icons_card_slash">&lt/i>Buy Now
+                        &lt/button>
+                      &lt/div>
+                    &lt/div>
+                  
+        </code></pre>
+        </div>
+      </div>
+      <h2 class="component_example">Example of Card with Dismiss</h2>
+      <div class="component_box">
+        <div class="card_container">
+          <div>
+            <button class="dismiss_icon"><i class="fa fa-remove"></i></button>
+            <img class="card_img" src="/stylestheet/assets/card.jpeg" alt="image" />
+          </div>
+          <div class="titel_container">
+            <h1 class="product_name">boAt Rockerz 255R</h1>
+            <button class="btn_heart heart_btn">
+              <i class="far fa-heart heart_icon"></i>
+            </button>
+            <p class="card_discription">
+              Bluetooth Earphone with Mic IPX5 Water & Sweat Resistance
+            </p>
+            <div class="card_rating">
+              <i class="fa fa-star card_star"></i>
+              <i class="fa fa-star card_star"></i>
+              <i class="fa fa-star card_star"></i>
+              <i class="fa fa-star-half-full card_star"></i>
+              <i class="fa fa-star-o card_star"></i>
+              <div class="price">
+                <strong>Rs.1000</strong>
+                <s>Rs.1500</s>
+              </div>
+            </div>
+            <div class="btn_container">
+              <button class="card_btn">
+                <i class="fa fa-shopping-cart icons_card"></i>Add to cart
+              </button>
+              <button class="card_btn btn_buy">
+                <i class="fa fa-bolt icons_card_slash"></i>Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="component_code">
+        <pre><code class="language-html">
+                &ltdiv class="card_container">
+                    &ltdiv>
+                      &ltbutton class="dismiss_icon">&lti class="fa fa-remove">&lt/i>&lt/button>
+                      &ltimg
+                        class="card_img"
+                        src="/stylestheet/assets/card.jpeg"
+                        alt="image"
+                      />
+                    &lt/div>
+                    &ltdiv class="titel_container">
+                      &lth1 class="product_name">boAt Rockerz 255R&lt/h1>
+                      &ltbutton class="btn_heart heart_btn">
+                        &lti class="far fa-heart heart_icon">&lt/i>
+                      &lt/button>
+                      &ltp class="card_discription">
+                        Bluetooth Earphone with Mic IPX5 Water & Sweat Resistance
+                      &lt/p>
+                      &ltdiv class="card_rating">
+                        &lti class="fa fa-star card_star">&lt/i>
+                        &lti class="fa fa-star card_star">&lt/i>
+                        &lti class="fa fa-star card_star">&lt/i>
+                        &lti class="fa fa-star-half-full card_star">&lt/i>
+                        &lti class="fa fa-star-o card_star">&lt/i>
+                        &ltdiv class="price">
+                          &ltstrong>Rs.1000&lt/strong>
+                          &lts>Rs.1500&lt/s>
+                        &lt/div>
+                      &lt/div>
+                      &ltdiv class="btn_container">
+                        &ltbutton class="card_btn">
+                          &lti class="fa fa-shopping-cart icons_card">&lt/i>Add to cart
+                        &lt/button>
+                        &ltbutton class="card_btn btn_buy">
+                          &lti class="fa fa-bolt icons_card_slash">&lt/i>Buy Now
+                        &lt/button>
+                      &lt/div>
+                    &lt/div>
+                  &lt/div>
+        
+        </code></pre>
+      </div>
+      <h2 class="component_example">Example of Card with Badge</h2>
+      <div class="component_box">
+        <div class="card_container">
+          <div>
+            <div class="badge_container">
+              <button class="new_btn badge_size">New</button>
+            </div>
+            <img class="card_img" src="/stylestheet/assets/card.jpeg" alt="image" />
+          </div>
+          <div class="titel_container">
+            <h1 class="product_name">boAt Rockerz 255R</h1>
+            <button class="btn_heart heart_btn">
+              <i class="far fa-heart heart_icon"></i>
+            </button>
+            <p class="card_discription">
+              Bluetooth Earphone with Mic IPX5 Water & Sweat Resistance
+            </p>
+            <div class="card_rating">
+              <i class="fa fa-star card_star"></i>
+              <i class="fa fa-star card_star"></i>
+              <i class="fa fa-star card_star"></i>
+              <i class="fa fa-star-half-full card_star"></i>
+              <i class="fa fa-star-o card_star"></i>
+              <div class="price">
+                <strong>Rs.1000</strong>
+                <s>Rs.1500</s>
+              </div>
+            </div>
+            <div class="btn_container">
+              <button class="card_btn">
+                <i class="fa fa-shopping-cart icons_card"></i>Add to cart
+              </button>
+              <button class="card_btn btn_buy">
+                <i class="fa fa-bolt icons_card_slash"></i>Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="component_code">
+        <pre><code class="language-html">
+                &ltdiv class="card_container">
+                    &ltdiv>
+                      &ltdiv class="badge_container">
+                        &ltbutton class="new_btn badge_size">New&lt/button>
+                      &lt/div>
+                      &ltimg
+                        class="card_img"
+                        src="/stylestheet/assets/card.jpeg"
+                        alt="image"
+                      />
+                    &lt/div>
+                    &ltdiv class="titel_container">
+                      &lth1 class="product_name">boAt Rockerz 255R&lt/h1>
+                      &ltbutton class="btn_heart heart_btn">
+                        &lti class="far fa-heart heart_icon">&lt/i>
+                      &lt/button>
+                      &ltp class="card_discription">
+                        Bluetooth Earphone with Mic IPX5 Water & Sweat Resistance
+                      &lt/p>
+                      &ltdiv class="card_rating">
+                        &lti class="fa fa-star card_star">&lt/i>
+                        &lti class="fa fa-star card_star">&lt/i>
+                        &lti class="fa fa-star card_star">&lt/i>
+                        &lti class="fa fa-star-half-full card_star">&lt/i>
+                        &lti class="fa fa-star-o card_star">&lt/i>
+                        &ltdiv class="price">
+                          &ltstrong>Rs.1000&lt/strong>
+                          &lts>Rs.1500&lt/s>
+                        &lt/div>
+                      &lt/div>
+                      &ltdiv class="btn_container">
+                        &ltbutton class="card_btn">
+                          &lti class="fa fa-shopping-cart icons_card">&lt/i>Add to cart
+                        &lt/button>
+                        &ltbutton class="card_btn btn_buy">
+                          &lti class="fa fa-bolt icons_card_slash">&lt/i>Buy Now
+                        &lt/button>
+                      &lt/div>
+                    &lt/div>
+                  &lt/div>
+        </code></pre>
+      </div>
+      <h2 class="component_example">Example of Card with Text Overlay</h2>
+      <div class="component_box">
+        <div class="card_container">
+          <div class="card_opacity">
+            <span class="text_overlay"> Out of Stock </span>
+            <div class="badge_container">
+              <button class="new_btn badge_size">New</button>
+            </div>
+            <img class="card_img" src="/stylestheet/assets/card.jpeg" alt="image" />
+          </div>
+          <div class="titel_container card_opacity">
+            <h1 class="product_name">boAt Rockerz 255R</h1>
+            <button class="btn_heart heart_btn">
+              <i class="far fa-heart heart_icon"></i>
+            </button>
+            <p class="card_discription">
+              Bluetooth Earphone with Mic IPX5 Water & Sweat Resistance
+            </p>
+            <div class="card_rating">
+              <i class="fa fa-star card_star"></i>
+              <i class="fa fa-star card_star"></i>
+              <i class="fa fa-star card_star"></i>
+              <i class="fa fa-star-half-full card_star"></i>
+              <i class="fa fa-star-o card_star"></i>
+              <div class="price">
+                <strong>Rs.1000</strong>
+                <s>Rs.1500</s>
+              </div>
+            </div>
+            <div class="btn_container">
+              <button class="card_btn">
+                <i class="fa fa-shopping-cart icons_card"></i>Add to cart
+              </button>
+              <button class="card_btn btn_buy">
+                <i class="fa fa-bolt icons_card_slash"></i>Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="component_code">
+        <pre><code class="language-html">
+                &ltdiv class="card_container">
+                    &ltdiv class="card_opacity">
+                      &ltspan class="text_overlay"> Out of Stock &lt/span>
+                      &ltdiv class="badge_container">
+                        &ltbutton class="new_btn badge_size">New&lt/button>
+                      &lt/div>
+                      &ltimg
+                        class="card_img"
+                        src="/stylestheet/assets/card.jpeg"
+                        alt="image"
+                      />
+                    &lt/div>
+                    &ltdiv class="titel_container card_opacity">
+                      &lth1 class="product_name">boAt Rockerz 255R&lt/h1>
+                      &ltbutton class="btn_heart heart_btn">
+                        &lti class="far fa-heart heart_icon">&lt/i>
+                      &lt/button>
+                      &ltp class="card_discription">
+                        Bluetooth Earphone with Mic IPX5 Water & Sweat Resistance
+                      &lt/p>
+                      &ltdiv class="card_rating">
+                        &lti class="fa fa-star card_star">&lt/i>
+                        &lti class="fa fa-star card_star">&lt/i>
+                        &lti class="fa fa-star card_star">&lt/i>
+                        &lti class="fa fa-star-half-full card_star">&lt/i>
+                        &lti class="fa fa-star-o card_star">&lt/i>
+                        &ltdiv class="price">
+                          &ltstrong>Rs.1000&lt/strong>
+                          &lts>Rs.1500&lt/s>
+                        &lt/div>
+                      &lt/div>
+                      &ltdiv class="btn_container">
+                        &ltbutton class="card_btn">
+                          &lti class="fa fa-shopping-cart icons_card">&lt/i>Add to cart
+                        &lt/button>
+                        &ltbutton class="card_btn btn_buy">
+                          &lti class="fa fa-bolt icons_card_slash">&lt/i>Buy Now
+                        &lt/button>
+                      &lt/div>
+                    &lt/div>
+                  &lt/div>
+        
+            </code></pre>
+      </div>
+      <h2 class="component_example">Example of Card with Horizontal</h2>
+      <div class="component_box">
+        <div class="card_horizontal">
+          <img class="card_img image_width" src="/stylestheet/assets/card.jpeg" alt="image" />
+          <div class="titel_container">
+            <h1 class="product_name">boAt Rockerz 255R</h1>
+            <p class="card_discription">
+              Bluetooth Earphone with Mic IPX5 Water & Sweat Resistance
+            </p>
+            <div class="card_rating">
+              <i class="fa fa-star card_star"></i>
+              <i class="fa fa-star card_star"></i>
+              <i class="fa fa-star card_star"></i>
+              <i class="fa fa-star-half-full card_star"></i>
+              <i class="fa fa-star-o card_star"></i>
+              <div class="price">
+                <strong>Rs.1000</strong>
+                <s>Rs.1500</s>
+              </div>
+            </div>
+            <div class="btn_container">
+              <button class="card_btn">
+                <i class="fa fa-shopping-cart icons_card"></i>Add to cart
+              </button>
+              <button class="card_btn btn_buy">
+                <i class="fa fa-bolt icons_card_slash"></i>Buy Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="component_code">
+        <pre><code class="language-html">
+                &ltdiv class="card_horizontal">
+                    &ltimg
+                      class="card_img image_width"
+                      src="/stylestheet/assets/card.jpeg"
+                      alt="image"
+                    />
+                    &ltdiv class="titel_container">
+                      &lth1 class="product_name">boAt Rockerz 255R&lt/h1>
+                      &ltp class="card_discription">
+                        Bluetooth Earphone with Mic IPX5 Water & Sweat Resistance
+                      &lt/p>
+                      &ltdiv class="card_rating">
+                        &lti class="fa fa-star card_star">&lt/i>
+                        &lti class="fa fa-star card_star">&lt/i>
+                        &lti class="fa fa-star card_star">&lt/i>
+                        &lti class="fa fa-star-half-full card_star">&lt/i>
+                        &lti class="fa fa-star-o card_star">&lt/i>
+                        &ltdiv class="price">
+                          &ltstrong>Rs.1000&lt/strong>
+                          &lts>Rs.1500&lt/s>
+                        &lt/div>
+                      &lt/div>
+                      &ltdiv class="btn_container">
+                        &ltbutton class="card_btn">
+                          &lti class="fa fa-shopping-cart icons_card">&lt/i>Add to cart
+                        &lt/button>
+                        &ltbutton class="card_btn btn_buy">
+                          &lti class="fa fa-bolt icons_card_slash">&lt/i>Buy Now
+                        &lt/button>
+                      &lt/div>
+                    &lt/div>
+                  &lt/div>
+        </code></pre>
+      </div>
+      <hr />
+      <!-- Image component -->
+      <div id="image">
+        <h1 class="component_heading">Image</h1>
+        <p class="para">
+          Responsive images are the set of techniques used to load the right
+          image based on device resolution, orientation, screen size, network
+          connection, and page layout.
+        </p>
+        <h2 class="component_example">Example For Responsive Images</h2>
+        <div>
+          <p class="para">
+            This image component contain responsive image you can use this
+            with copying below mentioned html snippet. added 3 type of image
+            like- square image ,round shape image
+          </p>
+        </div>
+        <div class="component_box">
+          <div class="image_container">
+            <img src="/stylestheet/assets/res_image.jpg" class="image" alt="image" />
+            <img src="/stylestheet/assets/res_image.jpg" class="image image_round" alt="image" />
+          </div>
+        </div>
+        <div class="component_code">
+          <pre><code class="language-html">
+                &lt!-- responsive image square image -->
+                &ltimg
+                src="/stylestheet/assets/res_image.jpg"
+                class="image"
+                alt="image"
+              />
+              &lt!-- round image -->
+              &ltimg
+                src="/stylestheet/assets/res_image.jpg"
+                class="image image_round"
+                alt="image"
+                />
+              </code></pre>
+        </div>
+      </div>
+      <hr />
+      <!-- input component -->
+      <div id="input">
+        <h1 class="component_heading">Input</h1>
+        <p class="para">
+          Input fields are an essential user interface design element.These
+          input fileds used in many situation but most of people used for
+          entring personal details,delivery address on e-commerce web forms.
+        </p>
+        <h2 class="component_example">Example simple input filed</h2>
+        <div>
+          <p class="para">
+            Inputs are used in forms to collect user related data.
+          </p>
+        </div>
+        <div class="component_box input_box">
+          <div>
+            <label for="username" class="lable_text">Username *</label>
+            <input type="text" name="text" id="username" placeholder="Enter your name" />
+          </div>
+          <div>
+            <label for="username" class="lable_text">Password *</label>
+            <input type="text" name="text" id="username" placeholder="Enter password" />
+          </div>
+        </div>
+        <div class="component_code">
+          <pre><code class="language-html">
+        
+            &ltdiv>
+                &ltlabel for="username" class="lable_text">Username *&lt/label>
+                &ltinput
+                  type="text"
+                  name="text"
+                  id="username"
+                  placeholder="Enter your name"
+                />
+              &lt/div>
+              &ltdiv>
+                &ltlabel for="username" class="lable_text">Password *&lt/label>
+                &ltinput
+                  type="text"
+                  name="text"
+                  id="username"
+                  placeholder="Enter password"
+                />
+              &lt/div>
+           </code></pre>
+        </div>
+        <h2 class="component_example">
+          Example simple input filed with validation
+        </h2>
+        <div>
+          <p class="para">
+            This type of input used when the user entered wrong details.In
+            this component have used the password hidden password text. you
+            can use this with copying below html snippet.
+          </p>
+        </div>
+        <div class="component_box input_box">
+          <div>
+            <label for="username" class="lable_text">Username *</label>
+            <input type="text" name="text" id="username" placeholder="Enter your name" />
+          </div>
+          <div>
+            <label for="username" class="lable_text lable_text_color">Password *</label>
+            <input type="password" name="text" id="username" placeholder="Enter password" />
+            <p class="valid_text lable_text_color">
+              Invalid password entered
+            </p>
+          </div>
+        </div>
+        <div class="component_code">
+          <pre><code class="language-html">
+                &ltdiv>
+                    &ltlabel for="username" class="lable_text">Username *&lt/label>
+                    &ltinput
+                      type="text"
+                      name="text"
+                      id="username"
+                      placeholder="Enter your name"
+                    />
+                  &lt/div>
+                  &ltdiv>
+                    &ltlabel for="username" class="lable_text lable_text_color"
+                      >Password *&lt/label
+                    >
+                    &ltinput
+                      type="password"
+                      name="text"
+                      id="username"
+                      placeholder="Enter password"
+                    />
+                    &ltp class="valid_text lable_text_color">
+                      Invalid password entered
+                    &lt/p>
+                  &lt/div>
+        </code></pre>
+        </div>
+      </div>
+      <hr />
+      <!-- list component -->
+      <div id="list">
+        <h1 class="component_heading">List</h1>
+        <p class="para">
+          Lists are continuous, vertical indexes of text or images.Lists are
+          used to group together related pieces of information so they are
+          clearly associated with each other and easy to read.In this
+          component have explained about three lists they are-unordered
+          list,ordered list and notification stack list.
+        </p>
+        <h2 class="component_example">
+          Example of simple Unodered list with bullets
+        </h2>
+        <div>
+          <p class="para">
+            To create Unodered list use below html snippet.With proper class
+            as mention below.
+          </p>
+        </div>
+        <div class="component_box list_box">
+          <ul class="list_styles">
+            <li>item1</li>
+            <li>item3</li>
+            <li>item4</li>
+          </ul>
+          <ul class="list_styles list_circle">
+            <li>item1</li>
+            <li>item3</li>
+            <li>item4</li>
+          </ul>
+          <ul class="list_styles list_sq">
+            <li>item1</li>
+            <li>item3</li>
+            <li>item4</li>
+          </ul>
+        </div>
+        <div class="component_code">
+          <pre><code class="language-html">
+                &ltul class="list_styles">
+                    &ltli>item1&lt/li>
+                    &ltli>item3&lt/li>
+                    &ltli>item4&lt/li>
+                  &lt/ul>
+                  &ltul class="list_styles list_circle">
+                    &ltli>item1&lt/li>
+                    &ltli>item3&lt/li>
+                    &ltli>item4&lt/li>
+                  &lt/ul>
+                  &ltul class="list_styles list_sq">
+                    &ltli>item1&lt/li>
+                    &ltli>item3&lt/li>
+                    &ltli>item4&lt/li>
+                  &lt/ul>
+        </code></pre>
+        </div>
+        <h2 class="component_example">
+          Example of simple Odered list without bullet
+        </h2>
+        <div>
+          <p class="para">
+            To create Odered list of your choice bullet style use below html
+            snippet.With proper class as mention below.
+          </p>
+        </div>
+        <div class="component_box list_box">
+          <ol class="list_styles">
+            <li>item1</li>
+            <li>item3</li>
+            <li>item4</li>
+          </ol>
+          <ol class="list_styles list_upper_alphabet">
+            <li>item1</li>
+            <li>item3</li>
+            <li>item4</li>
+          </ol>
+          <ol class="list_styles list_lower_alphabet">
+            <li>item1</li>
+            <li>item3</li>
+            <li>item4</li>
+          </ol>
+          <ol class="list_styles list_roman">
+            <li>item1</li>
+            <li>item3</li>
+            <li>item4</li>
+          </ol>
+          <ol class="list_styles list_upper_roman">
+            <li>item1</li>
+            <li>item3</li>
+            <li>item4</li>
+          </ol>
+        </div>
+        <div class="component_code">
+          <pre><code class="language-html">
+                &ltol class="list_styles">
+                    &ltli>item1&lt/li>
+                    &ltli>item3&lt/li>
+                    &ltli>item4&lt/li>
+                  &lt/ol>
+                  &ltol class="list_styles list_upper_alphabet">
+                    &ltli>item1&lt/li>
+                    &ltli>item3&lt/li>
+                    &ltli>item4&lt/li>
+                  &lt/ol>
+                  &ltol class="list_styles list_lower_alphabet">
+                    &ltli>item1&lt/li>
+                    &ltli>item3&lt/li>
+                    &ltli>item4&lt/li>
+                  &lt/ol>
+                  &ltol class="list_styles list_roman">
+                    &ltli>item1&lt/li>
+                    &ltli>item3&lt/li>
+                    &ltli>item4&lt/li>
+                  &lt/ol>
+                  &ltol class="list_styles list_upper_roman">
+                    &ltli>item1&lt/li>
+                    &ltli>item3&lt/li>
+                    &ltli>item4&lt/li>
+                  &lt/ol>
+        </code></pre>
+        </div>
+        <h2 class="component_example">
+          Example of with inline list and without bullets list
+        </h2>
+        <div>
+          <p class="para">
+            To create inline list you can use class
+            <span class="primary_text_color">list_inline</span> and css
+            property <span class="primary_text_color">disply:inline</span> and
+            to remove list bullet use class
+            <span class="primary_text_color">list_bullet_none</span> css
+            property
+            <span class="primary_text_color">list-style:none</span> else use
+            below html snippet.With proper class as mention below.
+          </p>
+        </div>
+        <div class="component_box list_box">
+          <ul class="list_style_none">
+            <li class="list_inline">item1</li>
+            <li class="list_inline">item3</li>
+            <li class="list_inline">item4</li>
+          </ul>
+          <ul class="list_styles list_bullet_none">
+            <li>item1</li>
+            <li>item3</li>
+            <li>item4</li>
+          </ul>
+        </div>
+        <div class="component_code">
+          <pre><code class="language-html">
+                &ltul class="list_style_none">
+                    &ltli class="list_inline">item1&lt/li>
+                    &ltli class="list_inline">item3&lt/li>
+                    &ltli class="list_inline">item4&lt/li>
+                  &lt/ul>
+                  &ltul class="list_styles list_bullet_none">
+                    &ltli>item1&lt/li>
+                    &ltli>item3&lt/li>
+                    &ltli>item4&lt/li>
+                  &lt/ul>
+        </code></pre>
+        </div>
+        <h2 class="component_example">
+          Example of Stacked notification list
+        </h2>
+        <div>
+          <p class="para">
+            When you invoke multiple notifications from the same component
+            reference they will be stacked on the screen. Notifications which
+            derive from different references will be rendered on top of one
+            another. there are some example of stacked notifiaction maintioned
+            below to creat stacked notifiaction follow the below html snippet.
+          </p>
+        </div>
+        <div class="component_box stacked_list_box">
+          <ul class="list_bullet_none unorder_notification">
+            <li class="list_notifiction stacked_list_size">
+              Notification 1 <i class="fas fa-times-circle"></i>
+            </li>
+            <li class="list_notifiction stacked_list_size">
+              Notification 2 <i class="fas fa-times-circle"></i>
+            </li>
+            <li class="list_notifiction stacked_list_size">
+              Notifiaction 3 <i class="fas fa-times-circle"></i>
+            </li>
+            <li class="list_notifiction stacked_list_size">
+              Notifiaction 4 <i class="fas fa-times-circle"></i>
+            </li>
+          </ul>
+        </div>
+        <div class="component_code">
+          <pre><code class="language-html">
+            &ltul class="list_bullet_none unorder_notification">
+            &ltli class="list_notifiction stacked_list_size">
+            Notification 1 &lti class="fas fa-times-circle">&lt/i>
+            &lt/li>
+                    &ltli class="list_notifiction stacked_list_size">
+                      Notification 2 &lti class="fas fa-times-circle">&lt/i>
+                    &lt/li>
+                    &ltli class="list_notifiction stacked_list_size">
+                      Notifiaction 3 &lti class="fas fa-times-circle">&lt/i>
+                    &lt/li>
+                    &ltli class="list_notifiction stacked_list_size">
+                      Notifiaction 4 &lti class="fas fa-times-circle">&lt/i>
+                    &lt/li>
+                  &lt/ul>
+                </code></pre>
+        </div>
+      </div>
+      <div id="modal">
+        <h1 class="component_heading">Modal</h1>
+        <p class="para">
+          Modals are dailogue box which are used to show pop up notification
+          or advertising products or it is also used to popup the list of
+          items.
+        </p>
+        <h2 class="component_example">Sample Modals</h2>
+        <div class="component_box">
+          <div class="modal_container">
+            <div class="title_container dis_flex">
+              <h1>Model titel</h1>
+              <button class="cross_btn">
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+            </div>
+            <p>Model body text goes here</p>
+            <div class="modal_btn_conatiner dis_flex">
+              <button class="modal_btn close_btn">Close</button>
+              <button class="modal_btn">Save change</button>
+            </div>
+
+            <hr />
+          </div>
+        </div>
+        <div class="component_code">
+          <pre><code class="language-html">
+            &ltdiv class="modal_container">
+                            &ltdiv class="title_container dis_flex">
+                              &lth1>Model titel&lt/h1>
+                              &ltbutton class="cross_btn">
+                                &lti class="fa-solid fa-xmark">&lt/i>
+                              &lt/button>
+                            &lt/div>
+                            &ltp>Model body text goes here&lt/p>
+                            &ltdiv class="modal_btn_conatiner dis_flex">
+                              &ltbutton class="modal_btn close_btn">Close&lt/button>
+                              &ltbutton class="modal_btn">Save change&lt/button>
+                            &lt/div>
+                
+                            &lthr />
+                          &lt/div>
+                </code></pre>
+        </div>
+      </div>
+      <hr />
+      <hr />
+      <!-- nav_bar -->
+      <div id="navigation">
+        <h1 class="component_heading">Navigation</h1>
+        <p class="para">
+          A navigation bar is a user interface element within a webpage that
+          contains links to other sections of the website.
+        </p>
+        <h2 class="component_example">Navigation Bar</h2>
+        <div class="component_box">
+          <nav class="nav_bar">
+            <div>
+              <a href="/">
+                <h1 class="website_name">website</h1>
+              </a>
+            </div>
+            <div class="search">
+              <button>
+                <i class="fa fa-search"></i>
+              </button>
+              <input type="text" placeholder=" Search Your Desier" name="search" />
+            </div>
+            <div class="contact_info">
+              <ul class="nav_list">
+                <li>
+                  <a href="/"><i class="icon_nav fa fa-heart-o"></i></a>
+                </li>
+                <li>
+                  <a href="/"><i class="icon_nav fas fa-shopping-cart"></i></a>
+                </li>
+                <li>
+                  <a href="/"><i class="icon_nav fas fa-user"></i></a>
+                </li>
+                <li><a class="login_btn" href="/">Login</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="component_code">
+          <pre><code class="language-html">
+                &ltnav class="nav_bar">
+                    &ltdiv>
+                    &lta href="/">
+                    &lth1 class="website_name">website&lt/h1>
+                    &lt/a>
+                    &lt/div>
+                    &ltdiv class="search">
+                      &ltbutton>
+                        &lti class="fa fa-search">&lt/i>
+                      &lt/button>
+                      &ltinput
+                        type="text"
+                        placeholder=" Search Your Desier"
+                        name="search"
+                      />
+                    &lt/div>
+                    &ltdiv class="contact_info">
+                    &ltul class="nav_list">
+                        &ltli>
+                          &lta href="/">&lti class="icon_nav fa fa-heart-o">&lt/i>&lt/a>
+                        &lt/li>
+                        &ltli>
+                          &lta href="/"
+                            >&lti class="icon_nav fas fa-shopping-cart">&lt/i
+                          >&lt/a>
+                        &lt/li>
+                        &ltli>
+                          &lta href="/">&lti class="icon_nav fas fa-user">&lt/i>&lt/a>
+                          &lt/li>
+                          &ltli>&lta class="login_btn" href="/">Login&lt/a>&lt/li>
+                      &lt/ul>
+                    &lt/div>
+                  &lt/nav>
+      </code></pre>
+        </div>
+      </div>
+      <hr />
+      <!-- Rating component -->
+      <div id="rating">
+        <h1 class="component_heading">Rating</h1>
+        <p class="para">
+          Rating provides the opinion and expirence of customer on products.
+          User can rate a product which they have purchased.
+        </p>
+        <h2 class="component_example">Example For Simple Ratings</h2>
+        <div>
+          <p class="para">
+            In rating their are many types in this component you can use some
+            of them styles. By just copy and pasting the below mentioned code
+            snippet of html.
+          </p>
+        </div>
+        <div class="component_box Rating_box">
+          <!-- pristine rating -->
+          <div class="rating_container">
+            <p class="rating_text">Pristine</p>
+            <p class="rating_icon">
+              <i class="fas fa-star star_color star_control"></i>
+              <i class="fas fa-star star_color star_control"></i>
+              <i class="fas fa-star star_color star_control"></i>
+              <i class="fas fa-star star_color star_control"></i>
+              <i class="fas fa-star star_color star_control"></i>
+            </p>
+          </div>
+          <!-- read only rating -->
+          <div class="rating_container">
+            <p class="rating_text">Read Only</p>
+            <p class="rating_icon">
+              <i class="fas fa-star star_color star_read"></i>
+              <i class="fas fa-star star_color star_read"></i>
+              <i class="fas fa-star star_color star_read"></i>
+              <i class="fas fa-star star_color"></i>
+              <i class="fas fa-star star_color"></i>
+            </p>
+          </div>
+          <!-- disabled rating -->
+          <div class="rating_container">
+            <p class="rating_text">Disabled</p>
+            <p class="rating_icon">
+              <i class="fas fa-star star_color star_disable"></i>
+              <i class="fas fa-star star_color star_disable"></i>
+              <i class="fas fa-star star_color star_disable"></i>
+              <i class="fas fa-star star_color"></i>
+              <i class="fas fa-star star_color"></i>
+            </p>
+          </div>
+        </div>
+        <div class="component_code">
+          <pre><code class="language-html">
+                &lt!-- pristine rating -->
+            &ltdiv class="rating_container">
+                &ltp class="rating_text">Pristine&lt/p>
+                &ltp class="rating_icon">
+                  &lti class="fas fa-star star_color star_control">&lt/i>
+                  &lti class="fas fa-star star_color star_control">&lt/i>
+                  &lti class="fas fa-star star_color star_control">&lt/i>
+                  &lti class="fas fa-star star_color star_control">&lt/i>
+                  &lti class="fas fa-star star_color star_control">&lt/i>
+                  &lt/p>
+                  &lt/div>
+              &lt!-- read only rating -->
+              &ltdiv class="rating_container">
+                &ltp class="rating_text">Read Only&lt/p>
+                &ltp class="rating_icon">
+                &lti class="fas fa-star star_color star_read">&lt/i>
+                &lti class="fas fa-star star_color star_read">&lt/i>
+                &lti class="fas fa-star star_color star_read">&lt/i>
+                &lti class="fas fa-star star_color">&lt/i>
+                &lti class="fas fa-star star_color">&lt/i>
+                &lt/p>
+                &lt/div>
+                &lt!-- disabled rating -->
+                &ltdiv class="rating_container">
+                &ltp class="rating_text">Disabled&lt/p>
+                &ltp class="rating_icon">
+                &lti class="fas fa-star star_color star_disable">&lt/i>
+                &lti class="fas fa-star star_color star_disable">&lt/i>
+                &lti class="fas fa-star star_color star_disable">&lt/i>
+                &lti class="fas fa-star star_color">&lt/i>
+                &lti class="fas fa-star star_color">&lt/i>
+                &lt/p>
+                &lt/div>
+              </code></pre>
+        </div>
+      </div>
+      <hr />
+      <div id="slider">
+        <h1 class="component_heading">Slider</h1>
+        <p class="para">
+          A range slider is an input field that merchants can use to select a
+          numeric value within a given range (minimum and maximum values).
+        </p>
+        <h2 class="component_example">Range slider (volume button)</h2>
+        <div class="component_box">
+          <div class="slide_fontsize dis_flex gap_s">
+            <i class="fas fa-solid fa-volume-xmark icon_range"></i>
+            <input type="range" name="value" max="10" class="range_slide" />
+            <i class="fa-solid fa-volume-high icon_range"></i>
+          </div>
+        </div>
+        <div class="component_code">
+          <pre><code class="language-html">
+                    &ltdiv class="slide_fontsize dis_flex gap_s">
+                        &lti class="fas fa-solid fa-volume-xmark icon_range">&lt/i>
+                        &ltinput type="range" name="value" max="10" class="range_slide" />
+                        &lti class="fa-solid fa-volume-high icon_range">&lt/i>
+                      &lt/div>
+          </code></pre>
+        </div>
+        <h2 class="component_example">Range slider(disable)</h2>
+        <div class="component_box">
+          <div>
+            <input type="range" name="value" max="10" disabled="true" class="range_slide" />
+          </div>
+        </div>
+        <div class="component_code">
+          <pre><code class="language-html">
+                    &ltdiv>
+                        &ltinput
+                          type="range"
+                          name="value"
+                          max="10"
+                          disabled="true"
+                          class="range_slide"
+                        />
+                      &lt/div>
+          </code></pre>
+        </div>
+      </div>
+      <hr />
+      <div id="grid">
+        <h1 class="component_heading">Simplified Grid</h1>
+        <p class="para">
+          A Grid is two dimensional layout sytem for web A grid based layout
+          system withrows and columns.A layout just like MS excel offers an
+          easy and convenint layout.
+        </p>
+        <h2 class="component_example">Grid Columns</h2>
+        <div class="component_box">
+          <p class="title_grid">Two Items in grid :</p>
+          <!-- two item grid -->
+          <div class="two_item_cl_grid">
+            <div class="grid_item">Item1</div>
+            <div class="grid_item">Item2</div>
+          </div>
+          <p class="title_grid">Three Items in grid :</p>
+          <!-- three item grid -->
+          <div class="three_item_cl_grid">
+            <div class="grid_item">Item1</div>
+            <div class="grid_item">Item2</div>
+            <div class="grid_item">Item2</div>
+          </div>
+        </div>
+        <div class="component_code">
+          <pre><code class="language-html">
+                     <!-- two item grid -->
+                &ltdiv class="two_item_cl_grid">
+                    &ltdiv class="grid_item">Item1&lt/div>
+                    &ltdiv class="grid_item">Item2&lt/div>
+                  &lt/div>
+                  &lt!-- three item grid -->
+                  &ltdiv class="three_item_cl_grid">
+                    &ltdiv class="grid_item">Item1&lt/div>
+                    &ltdiv class="grid_item">Item2&lt/div>
+                    &ltdiv class="grid_item">Item2&lt/div>
+                  &lt/div>
+          </code></pre>
+        </div>
+        <h2 class="component_example">Grid Row</h2>
+        <div class="component_box">
+          <p class="title_grid">Two Items in grid :</p>
+          <!-- two item grid -->
+          <div class="two_item_row_grid">
+            <div class="grid_item">Item1</div>
+            <div class="grid_item">Item2</div>
+          </div>
+          <p class="title_grid">Three Items in grid :</p>
+          <!-- three item grid -->
+          <div class="three_item_row_grid">
+            <div class="grid_item">Item1</div>
+            <div class="grid_item">Item2</div>
+            <div class="grid_item">Item2</div>
+          </div>
+        </div>
+        <div class="component_code">
+          <pre><code class="language-html">
+                    &ltp class="title_grid">Two Items in grid :&lt/p>
+                    &lt!-- two item grid -->
+                    &ltdiv class="two_item_row_grid">
+                    &ltdiv class="grid_item">Item1&lt/div>
+                      &ltdiv class="grid_item">Item2&lt/div>
+                    &lt/div>
+                    &ltp class="title_grid">Three Items in grid :&lt/p>
+                    &lt!-- three item grid -->
+                    &ltdiv class="three_item_row_grid">
+                      &ltdiv class="grid_item">Item1&lt/div>
+                      &ltdiv class="grid_item">Item2&lt/div>
+                      &ltdiv class="grid_item">Item2&lt/div>
+                    &lt/div>
+          </code></pre>
+        </div>
+      </div>
+      <hr />
+      <!-- toast component -->
+      <div id="toast">
+        <h1 class="component_heading">Toast</h1>
+        <p class="para">
+          The toast component is like an alert box that is only shown for a
+          couple of seconds when something happens (i.e. when the user clicks
+          on a button, submits a form, etc.).
+        </p>
+        <h2 class="component_example">Example of simple sankbar/toast</h2>
+        <div>
+          <p class="para">
+            some sankbar are shown below to use this component follow below
+            html snippet.
+          </p>
+        </div>
+        <div class="component_box toast_box">
+          <div class="container">
+            <div class="SnackBar">
+              Not saved ! try again later.<i class="fas fa-times" id="btn_close"></i>
+            </div>
+          </div>
+        </div>
+        <div class="component_code">
+          <pre><code class="language-html">
+                &ltdiv class="SnackBar">
+                    Not saved ! try again later.&lti
+                      class="fas fa-times"
+                      id="btn_close"
+                    >&lt/i>
+                  &lt/div>
+</code></pre>
+        </div>
+        <h2 class="component_example">
+          Example of sankbar/toast with button
+        </h2>
+        <div>
+          <p class="para">
+            This are the toast which used for appearing small message on pop.
+            It have buttons also which used to remove the toast.
+          </p>
+        </div>
+        <div class="component_box toast_box">
+          <div class="container">
+            <div class="snackBar">
+              Can't send photo. Retry in 5 seconds.
+              <button class="btn">Retry</button>
+              <button class="btn btn_cross">
+                <i class="fas fa-times"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="component_code">
+          <pre><code class="language-html">
+                &ltdiv class="snackBar">
+                    Can't send photo. Retry in 5 seconds.
+                    &ltbutton class="btn">Retry&lt/button>
+                    &ltbutton class="btn btn_cross">
+                      &lti class="fas fa-times">&lt/i>
+                    &lt/button>
+                  &lt/div>
+</code></pre>
+        </div>
+      </div>
+
+      <!-- typography -->
+      <div id="typography">
+        <h1 class="component_heading">Typography</h1>
+        <p class="para">
+          Documentation and examples for
+          <span class="text_font primary_text_color">CSS UI Galaxy</span>
+          typography, including global settings, headings, body text, lists,
+          and more.
+        </p>
+        <h2 class="component_example">Headings</h2>
+        <div>
+          <p class="para">
+            All HTML headings ,h1 through h6, are available.Go through the
+            mentioned snippet.
+          </p>
+        </div>
+        <div class="component_box heading_box">
+          <h1 class="h1">headings h1</h1>
+          <h2 class="h2">headings h2</h2>
+          <h3 class="h3">headings h3</h3>
+          <h4 class="h4">headings h4</h4>
+          <h5 class="h5">headings h5</h5>
+          <h6 class="h6">headings h6</h6>
+        </div>
+        <div class="component_code">
+          <pre><code class="language-html">
+                &ltdiv class="component_box heading_box">
+                    &lth1 class="h1">headings h1&lt/h1>
+                    &lth2 class="h2">headings h2&lt/h2>
+                    &lth3 class="h3">headings h3&lt/h3>
+                    &lth4 class="h4">headings h4&lt/h4>
+                    &lth5 class="h5">headings h5&lt/h5>
+                    &lth6 class="h6">headings h6&lt/h6>
+                  &lt/div>
+</code></pre>
+        </div>
+        <h1 class="component_heading">Font family</h1>
+        <div>
+          <p class="para">
+            <span class="primary_text_color text_font">CSS UI Galaxy</span>
+            uses "Playfair Display-sarif", as its default font, which is a
+            free font available at Google Fonts.
+          </p>
+        </div>
+        <div class="component_code">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-dark&wt=none&l=auto&width=1080&ds=false&dsyoff=1.25rem&dsblur=4.25rem&wc=true&wa=true&pv=3.5rem&ph=3.5rem&ln=false&fl=1&fm=Hack&fs=.875rem&lh=133%25&si=false&es=2x&wm=false&code=%2540import%2520url%28%27https%253A%252F%252Ffonts.googleapis.com%252Fcss2%253Ffamily%253DCaveat%2526family%253DCormorant%252BGaramond%253Awght%2540400%253B500%2526family%253DEB%252BGaramond%2526family%253DIndie%252BFlower%2526family%253DKalam%253Awght%2540300%2526family%253DLibre%252BBaskerville%2526family%253DMarck%252BScript%2526family%253DMontagu%252BSlab%253Awght%2540300%2526family%253DMontserrat%253Aital%252Cwght%25400%252C100%253B0%252C300%253B0%252C400%253B1%252C500%2526family%253DNoto%252BSerif%2526family%253DPhilosopher%253Awght%2540700%2526family%253DQuintessential%2526family%253DSource%252BSerif%252BPro%253Aital%252Cwght%25401%252C300%2526family%253DYuji%252BMai%2526display%253Dswap%27%29%253B"
+            class="iframe_style" sandbox="allow-scripts allow-same-origin">
+          </iframe>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="floating_btn btn_floting_action"><i class="fa-solid fa-circle-arrow-up icon_btn"></i></a>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+  <script>
+    hljs.highlightAll();
+  </script>
 </body>
 
 </html>
